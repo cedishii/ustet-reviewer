@@ -1,0 +1,47 @@
+{
+  "flashcards": [
+    { "id": "fc-001", "subjectId": "mental-ability", "topicId": "patterns", "front": "Arithmetic sequence", "back": "Each term adds the same number (the common difference). Example: 4, 7, 10, 13 (d = 3).", "tags": ["sequences"] },
+    { "id": "fc-002", "subjectId": "mental-ability", "topicId": "patterns", "front": "Geometric sequence", "back": "Each term is multiplied by the same number (the common ratio). Example: 3, 6, 12, 24 (r = 2).", "tags": ["sequences"] },
+    { "id": "fc-003", "subjectId": "mental-ability", "topicId": "patterns", "front": "A number series has no constant difference. What should you try next?", "back": "Check ratios, take the differences of the differences, look for sums of previous terms, or split it into two alternating series.", "tags": ["sequences", "strategy"] },
+    { "id": "fc-004", "subjectId": "mental-ability", "topicId": "patterns", "front": "Letter-position checkpoints", "back": "E = 5, J = 10, O = 15, T = 20, Y = 25. Count from the nearest checkpoint.", "tags": ["letter series"] },
+    { "id": "fc-005", "subjectId": "mental-ability", "topicId": "analogies", "front": "Bridge sentence", "back": "A short sentence stating how the first pair is related, e.g., \"A scalpel is a tool used by a surgeon.\" Test every choice with it.", "tags": ["analogies", "strategy"] },
+    { "id": "fc-006", "subjectId": "mental-ability", "topicId": "analogies", "front": "Degree relationship (example)", "back": "Words that differ in intensity: warm : hot :: cool : cold.", "tags": ["analogies"] },
+    { "id": "fc-007", "subjectId": "mental-ability", "topicId": "logical-reasoning", "front": "Contrapositive of \"If P, then Q\"", "back": "\"If not Q, then not P.\" It is always true when the original statement is true.", "tags": ["logic"] },
+    { "id": "fc-008", "subjectId": "mental-ability", "topicId": "logical-reasoning", "front": "Does \"All roses are flowers\" mean \"All flowers are roses\"?", "back": "No. \"All A are B\" cannot be reversed into \"All B are A.\"", "tags": ["logic"] },
+    { "id": "fc-009", "subjectId": "mental-ability", "topicId": "abstract-reasoning", "front": "In a cube net, three squares are in a straight row. Which two become opposite faces?", "back": "The first and third squares.", "tags": ["cube nets", "spatial"] },
+    { "id": "fc-010", "subjectId": "mental-ability", "topicId": "problem-solving", "front": "Clock-angle formula", "back": "Angle = |30H − 5.5M| degrees (H = hour, M = minutes). If the result is over 180°, subtract it from 360°.", "tags": ["clocks", "formula"] },
+
+    { "id": "fc-011", "subjectId": "english", "topicId": "vocabulary", "front": "Benevolent", "back": "Kind and well-meaning. (bene- = good)", "tags": ["vocabulary"] },
+    { "id": "fc-012", "subjectId": "english", "topicId": "vocabulary", "front": "Ephemeral", "back": "Lasting only a very short time.", "tags": ["vocabulary"] },
+    { "id": "fc-013", "subjectId": "english", "topicId": "vocabulary", "front": "Prefix \"mal-\"", "back": "Bad or badly. Examples: malnourished, malfunction.", "tags": ["word parts"] },
+    { "id": "fc-014", "subjectId": "english", "topicId": "vocabulary", "front": "Denotation vs. connotation", "back": "Denotation is a word's dictionary meaning. Connotation is the feeling or association it carries.", "tags": ["vocabulary"] },
+    { "id": "fc-015", "subjectId": "english", "topicId": "grammar", "front": "Neither ... nor: which subject does the verb agree with?", "back": "The subject closer to the verb. \"Neither the teacher nor the students ARE late.\"", "tags": ["agreement"] },
+    { "id": "fc-016", "subjectId": "english", "topicId": "grammar", "front": "its vs. it's", "back": "its = belonging to it. it's = it is / it has.", "tags": ["usage"] },
+    { "id": "fc-017", "subjectId": "english", "topicId": "grammar", "front": "fewer vs. less", "back": "Fewer for things you can count (fewer books). Less for amounts you cannot count (less water).", "tags": ["usage"] },
+    { "id": "fc-018", "subjectId": "english", "topicId": "reading", "front": "Inference", "back": "A logical conclusion supported by clues in the text but not directly stated.", "tags": ["reading"] },
+    { "id": "fc-019", "subjectId": "english", "topicId": "writing", "front": "Comma splice", "back": "Two independent clauses joined only by a comma. Fix with a period, a semicolon, or a comma + conjunction.", "tags": ["sentence errors"] },
+    { "id": "fc-020", "subjectId": "english", "topicId": "literature", "front": "Simile vs. metaphor", "back": "A simile compares using \"like\" or \"as.\" A metaphor says one thing IS another.", "tags": ["figures of speech"] },
+
+    { "id": "fc-021", "subjectId": "mathematics", "topicId": "algebra", "front": "Quadratic formula", "back": "x = (−b ± √(b² − 4ac)) / (2a), for ax² + bx + c = 0.", "tags": ["formula"] },
+    { "id": "fc-022", "subjectId": "mathematics", "topicId": "algebra", "front": "Slope through (x₁, y₁) and (x₂, y₂)", "back": "m = (y₂ − y₁) / (x₂ − x₁)", "tags": ["formula", "lines"] },
+    { "id": "fc-023", "subjectId": "mathematics", "topicId": "algebra", "front": "What does the discriminant b² − 4ac tell you?", "back": "Positive: two real roots. Zero: one repeated real root. Negative: no real roots.", "tags": ["quadratics"] },
+    { "id": "fc-024", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "front": "Pythagorean theorem", "back": "a² + b² = c², where c is the hypotenuse of a right triangle.", "tags": ["formula", "triangles"] },
+    { "id": "fc-025", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "front": "SOH-CAH-TOA", "back": "sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent.", "tags": ["trigonometry"] },
+    { "id": "fc-026", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "front": "Sum of interior angles of an n-sided polygon", "back": "(n − 2) × 180°", "tags": ["formula", "polygons"] },
+    { "id": "fc-027", "subjectId": "mathematics", "topicId": "statistics-probability", "front": "Combination formula (order does NOT matter)", "back": "C(n, r) = n! / (r!(n − r)!)", "tags": ["formula", "counting"] },
+    { "id": "fc-028", "subjectId": "mathematics", "topicId": "statistics-probability", "front": "Median", "back": "The middle value of sorted data. With an even count, average the two middle values.", "tags": ["statistics"] },
+    { "id": "fc-029", "subjectId": "mathematics", "topicId": "word-problems", "front": "Simple interest", "back": "I = Prt (principal × annual rate × time in years).", "tags": ["formula", "business math"] },
+    { "id": "fc-030", "subjectId": "mathematics", "topicId": "basic-calculus", "front": "Power rule for derivatives", "back": "d/dx (xⁿ) = n·xⁿ⁻¹", "tags": ["formula", "derivatives"] },
+
+    { "id": "fc-031", "subjectId": "science", "topicId": "biology", "front": "Mitochondria", "back": "The organelle where cellular respiration releases energy as ATP.", "tags": ["cells"] },
+    { "id": "fc-032", "subjectId": "science", "topicId": "biology", "front": "Mitosis vs. meiosis", "back": "Mitosis: 2 identical body cells. Meiosis: 4 genetically different sex cells with half the chromosome number.", "tags": ["cell division"] },
+    { "id": "fc-033", "subjectId": "science", "topicId": "biology", "front": "Tt × Tt: expected ratio of traits", "back": "3 dominant : 1 recessive (genotypes 1 TT : 2 Tt : 1 tt).", "tags": ["genetics"] },
+    { "id": "fc-034", "subjectId": "science", "topicId": "chemistry", "front": "Atomic number", "back": "The number of protons in an atom's nucleus. It identifies the element.", "tags": ["atoms"] },
+    { "id": "fc-035", "subjectId": "science", "topicId": "chemistry", "front": "Isotopes", "back": "Atoms of the same element with different numbers of neutrons.", "tags": ["atoms"] },
+    { "id": "fc-036", "subjectId": "science", "topicId": "chemistry", "front": "pH scale", "back": "Below 7: acidic. 7: neutral. Above 7: basic.", "tags": ["acids and bases"] },
+    { "id": "fc-037", "subjectId": "science", "topicId": "physics", "front": "Newton's second law", "back": "F = ma: net force equals mass times acceleration.", "tags": ["formula", "forces"] },
+    { "id": "fc-038", "subjectId": "science", "topicId": "physics", "front": "Kinetic energy", "back": "KE = ½mv². Doubling the speed makes KE four times larger.", "tags": ["formula", "energy"] },
+    { "id": "fc-039", "subjectId": "science", "topicId": "physics", "front": "Ohm's law", "back": "V = IR (voltage = current × resistance).", "tags": ["formula", "electricity"] },
+    { "id": "fc-040", "subjectId": "science", "topicId": "earth-science", "front": "Why does the Philippines have many earthquakes and volcanoes?", "back": "It lies on the Pacific Ring of Fire, where tectonic plates meet and one plate sinks beneath another.", "tags": ["plate tectonics"] }
+  ]
+}

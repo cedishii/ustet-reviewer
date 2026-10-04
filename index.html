@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Unofficial, offline-capable USTET college entrance-exam reviewer.">
+  <meta name="theme-color" content="#1f3a5f">
+  <title>USTET Reviewer</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Installable app (PWA) support. See manifest.json and sw.js. -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="USTET Review">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!--
+    SCRIPT ORDER MATTERS.
+    These are plain (classic) scripts, not ES modules, because browsers block
+    module scripts when index.html is opened directly from a file (file://).
+    Every file adds its part to one shared object: window.App.
+    "defer" means: download now, run in this order after the page is parsed.
+  -->
+  <script defer src="js/utils.js"></script>
+  <script defer src="js/storage.js"></script>
+  <script defer src="js/data-loader.js"></script>
+  <script defer src="js/router.js"></script>
+  <script defer src="js/progress.js"></script>
+  <script defer src="js/lessons.js"></script>
+  <script defer src="js/flashcards.js"></script>
+  <script defer src="js/quizzes.js"></script>
+  <script defer src="js/mock-exam.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+
+  <header class="app-header">
+    <div class="app-header-inner">
+      <a class="brand" href="#/home">USTET Reviewer</a>
+      <!-- Edit this line if your target admissions cycle changes. -->
+      <p class="app-cycle">Target: A.Y. 2027–2028</p>
+    </div>
+  </header>
+
+  <!-- Main navigation. Each link's data-route must match a route name in app.js. -->
+  <nav class="app-nav" aria-label="Main">
+    <a href="#/home" data-route="home">Home</a>
+    <a href="#/lessons" data-route="lessons">Lessons</a>
+    <a href="#/flashcards" data-route="flashcards">Cards</a>
+    <a href="#/quiz" data-route="quiz">Quiz</a>
+    <a href="#/mock" data-route="mock">Mock</a>
+    <a href="#/progress" data-route="progress">Progress</a>
+  </nav>
+
+  <!-- Every screen is drawn inside this element by JavaScript. -->
+  <main id="app" class="app-main" tabindex="-1">
+    <p class="loading">Loading reviewer…</p>
+  </main>
+
+  <footer class="app-footer">
+    <p>Unofficial study tool. Not affiliated with or endorsed by the University of Santo Tomas.
+      Practice scores are not UST admission ratings.</p>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This reviewer needs JavaScript turned on.</p>
+  </noscript>
+</body>
+</html>

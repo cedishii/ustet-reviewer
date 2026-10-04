@@ -1,0 +1,715 @@
+{
+  "lessons": [
+    {
+      "id": "mental-patterns-01",
+      "subjectId": "mental-ability",
+      "topicId": "patterns",
+      "title": "Recognizing Number and Letter Patterns",
+      "summary": "Most series questions hide one simple rule. Test the common rules in a fixed order instead of guessing: differences, ratios, second differences, then alternating series. For letters, turn each letter into its position in the alphabet first.",
+      "sections": [
+        {
+          "heading": "Check these rules in order",
+          "bullets": [
+            "Same difference each time? It is arithmetic (e.g., 4, 7, 10, 13 adds 3).",
+            "Same ratio each time? It is geometric (e.g., 3, 6, 12, 24 multiplies by 2).",
+            "Differences keep changing? Find the differences of the differences (second differences).",
+            "Each term equals the sum of the two before it? It is a Fibonacci-type series.",
+            "Still stuck? Split the series into two series using every other term."
+          ]
+        },
+        {
+          "heading": "Letter series",
+          "bullets": [
+            "Convert letters to numbers: A = 1, B = 2, ... Z = 26.",
+            "Memorize checkpoints: E = 5, J = 10, O = 15, T = 20, Y = 25.",
+            "Watch for skips that grow (+1, +2, +3 ...) or a reversed alphabet."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Arithmetic sequence", "definition": "A sequence where the same number (the common difference) is added each time." },
+        { "term": "Geometric sequence", "definition": "A sequence where each term is multiplied by the same number (the common ratio)." },
+        { "term": "Alternating series", "definition": "Two separate series mixed together, taking turns." }
+      ],
+      "formulas": [
+        { "name": "nth term (arithmetic)", "value": "aₙ = a₁ + (n − 1)d" },
+        { "name": "nth term (geometric)", "value": "aₙ = a₁ · rⁿ⁻¹" }
+      ]
+    },
+    {
+      "id": "mental-analogies-01",
+      "subjectId": "mental-ability",
+      "topicId": "analogies",
+      "title": "Solving Analogies",
+      "summary": "An analogy A : B :: C : D means A relates to B the same way C relates to D. State the first relationship as a short sentence, then test every choice with the same sentence. The choice that fits most precisely is correct.",
+      "sections": [
+        {
+          "heading": "Common relationships",
+          "bullets": [
+            "Part to whole: petal : flower",
+            "Tool to user: stethoscope : doctor",
+            "Instrument to what it measures: thermometer : temperature",
+            "Degree or intensity: warm : hot",
+            "Category: tilapia : fish",
+            "Cause and effect: virus : infection",
+            "Synonyms or antonyms: brave : courageous, ancient : modern"
+          ]
+        },
+        {
+          "heading": "Strategy",
+          "bullets": [
+            "Make a bridge sentence: \"A ___ is a tool used by a ___.\"",
+            "If two choices fit, make the sentence more specific.",
+            "Keep the order. Doctor : stethoscope is not the same as stethoscope : doctor."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Bridge sentence", "definition": "A short sentence that states exactly how the first pair is related." },
+        { "term": "Degree relationship", "definition": "A pair of words that differ in strength or intensity, like drizzle : downpour." }
+      ],
+      "formulas": []
+    },
+    {
+      "id": "mental-logic-01",
+      "subjectId": "mental-ability",
+      "topicId": "logical-reasoning",
+      "title": "Statements, Conclusions, and Ordering",
+      "summary": "Logic questions test whether a conclusion MUST follow from the given statements. Use only what is stated, not what is usually true in real life. Many errors come from reversing statements.",
+      "sections": [
+        {
+          "heading": "Statements with all, some, no",
+          "bullets": [
+            "\"All A are B\" does NOT mean \"All B are A.\"",
+            "\"Some A are B\" means at least one A is a B.",
+            "If some A are B and all B are C, then some A are C."
+          ]
+        },
+        {
+          "heading": "If–then statements",
+          "bullets": [
+            "From \"If P, then Q\" and \"not Q\", you can conclude \"not P\".",
+            "From \"If P, then Q\" and \"Q\", you CANNOT conclude P.",
+            "The contrapositive is always equivalent; the converse is not."
+          ]
+        },
+        {
+          "heading": "Ordering and ranking",
+          "bullets": [
+            "Draw a line and place each person as you read each clue.",
+            "Use symbols: A > B means A is taller, older, faster, etc."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Syllogism", "definition": "An argument with two premises and a conclusion." },
+        { "term": "Contrapositive", "definition": "For \"If P, then Q\": \"If not Q, then not P.\" Always equivalent to the original." },
+        { "term": "Converse", "definition": "For \"If P, then Q\": \"If Q, then P.\" NOT guaranteed to be true." }
+      ],
+      "formulas": [
+        { "name": "Valid conclusion", "value": "P → Q and not Q  ⇒  not P" }
+      ]
+    },
+    {
+      "id": "mental-abstract-01",
+      "subjectId": "mental-ability",
+      "topicId": "abstract-reasoning",
+      "title": "Figures, Rotations, and Cube Nets",
+      "summary": "Abstract reasoning items change shapes by a rule: rotating, reflecting, adding parts, or shading. Track ONE feature at a time across the series. For folding problems, picture which faces end up opposite each other.",
+      "sections": [
+        {
+          "heading": "Figure series",
+          "bullets": [
+            "Check one feature at a time: position, rotation, number of parts, shading, size.",
+            "Rotations usually move in fixed steps such as 45° or 90°.",
+            "Some features cycle back to the start (e.g., after four 90° turns)."
+          ]
+        },
+        {
+          "heading": "Mirror images",
+          "bullets": [
+            "A vertical mirror flips left and right; top and bottom stay the same.",
+            "Letters like A, H, M, O, T, U, V, W, X, Y look the same in a vertical mirror."
+          ]
+        },
+        {
+          "heading": "Cube nets",
+          "bullets": [
+            "In a straight row of squares, the 1st and 3rd squares are opposite faces.",
+            "Two faces that touch in the net can never be opposite."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Rotation", "definition": "Turning a figure around a point, clockwise or counterclockwise." },
+        { "term": "Reflection", "definition": "A mirror image of a figure across a line." },
+        { "term": "Net", "definition": "A flat pattern that folds into a 3D shape." }
+      ],
+      "formulas": [
+        { "name": "Full turn", "value": "4 × 90° = 360° (back to the start)" }
+      ]
+    },
+    {
+      "id": "mental-problem-01",
+      "subjectId": "mental-ability",
+      "topicId": "problem-solving",
+      "title": "Everyday Problem Solving",
+      "summary": "Problem-solving items reward a calm method more than speed. Identify exactly what is asked, organize the facts, and pick a strategy such as drawing, making a table, or working backwards. Check that your answer makes sense.",
+      "sections": [
+        {
+          "heading": "A simple method",
+          "bullets": [
+            "Read twice and underline what is being asked.",
+            "Write the given facts as numbers or a quick sketch.",
+            "Choose a strategy: table, diagram, equation, or work backwards.",
+            "Estimate first, then eliminate choices that are clearly too big or small."
+          ]
+        },
+        {
+          "heading": "Common item types",
+          "bullets": [
+            "Calendar: days of the week repeat every 7 days.",
+            "Clocks: the hour hand also moves as minutes pass.",
+            "Ages: the difference between two people's ages never changes.",
+            "Handshakes/pairs: each pair is counted once."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Working backwards", "definition": "Starting from the final result and undoing each step in reverse order." },
+        { "term": "Estimation", "definition": "A quick rough answer used to eliminate unreasonable choices." }
+      ],
+      "formulas": [
+        { "name": "Clock angle", "value": "Angle = |30H − 5.5M| (if over 180°, use 360° minus it)" },
+        { "name": "Handshakes among n people", "value": "n(n − 1) ÷ 2" }
+      ]
+    },
+    {
+      "id": "english-vocabulary-01",
+      "subjectId": "english",
+      "topicId": "vocabulary",
+      "title": "Context Clues and Word Parts",
+      "summary": "You can often figure out an unfamiliar word without a dictionary. Look at the words around it (context clues) and break the word into its prefix, root, and suffix. Then check your guess by putting it back in the sentence.",
+      "sections": [
+        {
+          "heading": "Types of context clues",
+          "bullets": [
+            "Definition: the sentence explains the word directly.",
+            "Restatement/synonym: \"that is,\" \"or,\" commas, or dashes repeat the meaning.",
+            "Contrast/antonym: \"but,\" \"unlike,\" \"however\" signal the opposite meaning.",
+            "Example: \"such as\" or \"for example\" give instances of the word."
+          ]
+        },
+        {
+          "heading": "Useful word parts",
+          "bullets": [
+            "Prefixes: bene- (good), mal- (bad), pre- (before), anti- (against), mis- (wrongly).",
+            "Roots: bio (life), chron (time), graph (write), spect (look), voc (call).",
+            "Suffixes: -logy (study of), -cide (killing), -ous (full of), -less (without)."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Context clue", "definition": "A hint in the nearby text that helps reveal a word's meaning." },
+        { "term": "Root", "definition": "The main part of a word that carries its basic meaning." },
+        { "term": "Connotation", "definition": "The feeling or association a word carries beyond its dictionary meaning." }
+      ],
+      "formulas": []
+    },
+    {
+      "id": "english-grammar-01",
+      "subjectId": "english",
+      "topicId": "grammar",
+      "title": "Subject–Verb Agreement and Common Usage Errors",
+      "summary": "Many grammar items test whether the verb matches its true subject. Other items test pronoun case and commonly confused words. Find the real subject first, ignoring phrases in between.",
+      "sections": [
+        {
+          "heading": "Subject–verb agreement",
+          "bullets": [
+            "Ignore prepositional phrases: \"The box of photos IS heavy.\"",
+            "Each, every, everyone, anybody, and nobody take singular verbs.",
+            "With either/or and neither/nor, the verb agrees with the closer subject.",
+            "Subjects joined by \"and\" are usually plural."
+          ]
+        },
+        {
+          "heading": "Pronoun case",
+          "bullets": [
+            "Use object pronouns after prepositions: \"between you and ME.\"",
+            "Who = subject (who called?); whom = object (to whom?)."
+          ]
+        },
+        {
+          "heading": "Commonly confused words",
+          "bullets": [
+            "its (belonging to it) vs. it's (it is)",
+            "affect (usually a verb) vs. effect (usually a noun)",
+            "fewer (countable) vs. less (uncountable)",
+            "than (comparison) vs. then (time)"
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Subject–verb agreement", "definition": "A singular subject takes a singular verb; a plural subject takes a plural verb." },
+        { "term": "Antecedent", "definition": "The noun that a pronoun refers to." },
+        { "term": "Indefinite pronoun", "definition": "A pronoun that does not refer to a specific person, like everyone or nobody." }
+      ],
+      "formulas": []
+    },
+    {
+      "id": "english-reading-01",
+      "subjectId": "english",
+      "topicId": "reading",
+      "title": "Reading Comprehension Strategies",
+      "summary": "Reading items usually ask about the main idea, details, inferences, word meaning, or the author's purpose and tone. Always answer from the passage, not from outside knowledge. Eliminate choices that are too broad, too narrow, or not supported.",
+      "sections": [
+        {
+          "heading": "Before and while reading",
+          "bullets": [
+            "Skim the questions first so you know what to look for.",
+            "The main idea is often in the first or last sentence of a paragraph.",
+            "Notice signal words: however, therefore, for example, in contrast."
+          ]
+        },
+        {
+          "heading": "Answering",
+          "bullets": [
+            "Main idea: covers the WHOLE passage, not just one detail.",
+            "Inference: must be supported by clues, even if not stated directly.",
+            "Vocabulary in context: substitute each choice into the sentence.",
+            "Purpose: inform, persuade, entertain, or describe?"
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Main idea", "definition": "The central point the whole passage is making." },
+        { "term": "Inference", "definition": "A logical conclusion based on clues in the text." },
+        { "term": "Tone", "definition": "The author's attitude toward the subject, such as hopeful or critical." }
+      ],
+      "formulas": []
+    },
+    {
+      "id": "english-writing-01",
+      "subjectId": "english",
+      "topicId": "writing",
+      "title": "Sentence Structure and Clear Writing",
+      "summary": "Writing items test whether sentences are complete, correctly joined, and clearly organized. Learn to spot fragments, run-ons, comma splices, faulty parallelism, and dangling modifiers.",
+      "sections": [
+        {
+          "heading": "Sentence types",
+          "bullets": [
+            "Simple: one independent clause.",
+            "Compound: two independent clauses joined by a conjunction or semicolon.",
+            "Complex: one independent clause + at least one dependent clause.",
+            "Compound-complex: two or more independent clauses + a dependent clause."
+          ]
+        },
+        {
+          "heading": "Common errors and fixes",
+          "bullets": [
+            "Fragment: missing a subject or verb, or only a dependent clause. Fix by completing it.",
+            "Comma splice: two sentences joined by only a comma. Fix with a period, a semicolon, or comma + and/but/so.",
+            "Faulty parallelism: list items in different forms. Make them match (reading, swimming, biking).",
+            "Dangling modifier: the describing phrase has no clear subject. Put the right subject right after it."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Independent clause", "definition": "A group of words with a subject and verb that can stand alone as a sentence." },
+        { "term": "Comma splice", "definition": "Two independent clauses joined only by a comma." },
+        { "term": "Parallelism", "definition": "Using the same grammatical form for items in a list or comparison." }
+      ],
+      "formulas": []
+    },
+    {
+      "id": "english-literature-01",
+      "subjectId": "english",
+      "topicId": "literature",
+      "title": "Literary Devices and Elements of a Story",
+      "summary": "Literature items ask you to identify figures of speech and story elements, and to read beyond the literal meaning. Learn the common devices by their signal: comparison, exaggeration, sound, or contrast.",
+      "sections": [
+        {
+          "heading": "Figures of speech",
+          "bullets": [
+            "Simile: compares using like or as.",
+            "Metaphor: says one thing IS another.",
+            "Personification: gives human traits to non-human things.",
+            "Hyperbole: extreme exaggeration for effect.",
+            "Onomatopoeia: words that imitate sounds (buzz, bang).",
+            "Alliteration: repeated beginning consonant sounds.",
+            "Oxymoron: two contradictory words together (deafening silence)."
+          ]
+        },
+        {
+          "heading": "Irony",
+          "bullets": [
+            "Verbal: saying the opposite of what you mean.",
+            "Situational: the opposite of what is expected happens.",
+            "Dramatic: the audience knows something a character does not."
+          ]
+        },
+        {
+          "heading": "Story elements",
+          "bullets": [
+            "Setting, characters, plot, conflict, and theme.",
+            "Point of view: first person (I), third-person limited (one character's thoughts), third-person omniscient (all characters' thoughts)."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Theme", "definition": "The central message or insight about life in a work." },
+        { "term": "Conflict", "definition": "The struggle that drives the plot, internal or external." },
+        { "term": "Omniscient narrator", "definition": "A narrator who knows the thoughts and feelings of all characters." }
+      ],
+      "formulas": []
+    },
+    {
+      "id": "math-algebra-01",
+      "subjectId": "mathematics",
+      "topicId": "algebra",
+      "title": "Equations, Quadratics, and Functions",
+      "summary": "Algebra items ask you to solve equations, work with lines, and evaluate functions. Keep both sides of an equation balanced, and know the quadratic formula and the discriminant well.",
+      "sections": [
+        {
+          "heading": "Solving equations",
+          "bullets": [
+            "Do the same operation to both sides to isolate the variable.",
+            "Check your answer by substituting it back.",
+            "Quadratics: try factoring first; use the quadratic formula if factoring is hard."
+          ]
+        },
+        {
+          "heading": "Lines and functions",
+          "bullets": [
+            "Slope measures steepness: rise over run.",
+            "In y = mx + b, m is the slope and b is the y-intercept.",
+            "f(3) means replace every x with 3. Use parentheses for negative numbers."
+          ]
+        },
+        {
+          "heading": "Laws of exponents",
+          "bullets": [
+            "aᵐ · aⁿ = aᵐ⁺ⁿ and aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+            "(aᵐ)ⁿ = aᵐⁿ and a⁰ = 1 (a ≠ 0)"
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Discriminant", "definition": "b² − 4ac. Positive: 2 real roots; zero: 1 real root; negative: no real roots." },
+        { "term": "Function", "definition": "A rule that gives exactly one output for each input." }
+      ],
+      "formulas": [
+        { "name": "Quadratic formula", "value": "x = (−b ± √(b² − 4ac)) / (2a)" },
+        { "name": "Slope", "value": "m = (y₂ − y₁) / (x₂ − x₁)" },
+        { "name": "Slope-intercept form", "value": "y = mx + b" }
+      ]
+    },
+    {
+      "id": "math-geometry-01",
+      "subjectId": "mathematics",
+      "topicId": "geometry-trigonometry",
+      "title": "Geometry and Trigonometry Essentials",
+      "summary": "Geometry items use angle facts, the Pythagorean theorem, and area/volume formulas. Trigonometry items mostly use right-triangle ratios (SOH-CAH-TOA) and a few special angles. Draw a quick sketch for every problem.",
+      "sections": [
+        {
+          "heading": "Angles and triangles",
+          "bullets": [
+            "Angles in a triangle add up to 180°.",
+            "Interior angles of an n-sided polygon add up to (n − 2) × 180°.",
+            "Right triangles: a² + b² = c², with c the hypotenuse.",
+            "Common triples: 3-4-5, 5-12-13, 8-15-17 (and their multiples)."
+          ]
+        },
+        {
+          "heading": "Trigonometry",
+          "bullets": [
+            "SOH: sin = opposite / hypotenuse",
+            "CAH: cos = adjacent / hypotenuse",
+            "TOA: tan = opposite / adjacent",
+            "Special values: sin 30° = 1/2, cos 60° = 1/2, tan 45° = 1"
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Hypotenuse", "definition": "The longest side of a right triangle, opposite the right angle." },
+        { "term": "Radius", "definition": "Distance from the center of a circle to its edge; half the diameter." }
+      ],
+      "formulas": [
+        { "name": "Pythagorean theorem", "value": "a² + b² = c²" },
+        { "name": "Area of a circle", "value": "A = πr²" },
+        { "name": "Circumference", "value": "C = 2πr" },
+        { "name": "Area of a triangle", "value": "A = ½ × base × height" },
+        { "name": "Volume of a cylinder", "value": "V = πr²h" },
+        { "name": "Identity", "value": "sin²θ + cos²θ = 1" }
+      ]
+    },
+    {
+      "id": "math-statistics-01",
+      "subjectId": "mathematics",
+      "topicId": "statistics-probability",
+      "title": "Statistics and Probability Basics",
+      "summary": "Statistics items ask for averages and spread. Probability items compare favorable outcomes to all possible outcomes. Counting items depend on whether order matters.",
+      "sections": [
+        {
+          "heading": "Measures of center and spread",
+          "bullets": [
+            "Mean: sum of values ÷ number of values.",
+            "Median: middle value after sorting (average the two middle values if the count is even).",
+            "Mode: the most frequent value.",
+            "Range: highest value − lowest value."
+          ]
+        },
+        {
+          "heading": "Probability and counting",
+          "bullets": [
+            "Probability is always between 0 and 1.",
+            "P(not A) = 1 − P(A).",
+            "Independent events: P(A and B) = P(A) × P(B).",
+            "Order matters: permutation. Order does not matter: combination."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Outcome", "definition": "One possible result of an experiment." },
+        { "term": "Complement", "definition": "All outcomes where the event does NOT happen." }
+      ],
+      "formulas": [
+        { "name": "Probability", "value": "P(event) = favorable outcomes / total outcomes" },
+        { "name": "Permutations", "value": "P(n, r) = n! / (n − r)!" },
+        { "name": "Combinations", "value": "C(n, r) = n! / (r!(n − r)!)" }
+      ]
+    },
+    {
+      "id": "math-word-01",
+      "subjectId": "mathematics",
+      "topicId": "word-problems",
+      "title": "Word Problems and Business Math",
+      "summary": "Word problems become easy once translated into an equation. Define a variable, write the relationship in symbols, and solve. Business math uses a few formulas for percent, discount, and interest.",
+      "sections": [
+        {
+          "heading": "Translating words",
+          "bullets": [
+            "\"is\" means =, \"of\" often means ×, \"per\" means ÷.",
+            "\"more than\" means add; \"less than\" reverses the order (5 less than x = x − 5).",
+            "Always write what your variable stands for."
+          ]
+        },
+        {
+          "heading": "Rates",
+          "bullets": [
+            "Distance = rate × time.",
+            "Work: if one person finishes in t hours, they do 1/t of the job per hour. Add the rates when working together."
+          ]
+        },
+        {
+          "heading": "Business math",
+          "bullets": [
+            "Discount = original price × discount rate.",
+            "Sale price = original price × (1 − discount rate).",
+            "Simple interest grows by the same amount every year."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Principal", "definition": "The original amount of money invested or borrowed." },
+        { "term": "Markup", "definition": "The amount added to cost to get the selling price." }
+      ],
+      "formulas": [
+        { "name": "Simple interest", "value": "I = Prt" },
+        { "name": "Percent change", "value": "(new − old) ÷ old × 100%" },
+        { "name": "Distance", "value": "d = rt" },
+        { "name": "Combined work", "value": "1/t₁ + 1/t₂ = 1/T" }
+      ]
+    },
+    {
+      "id": "math-calculus-01",
+      "subjectId": "mathematics",
+      "topicId": "basic-calculus",
+      "title": "Introduction to Limits and Derivatives",
+      "summary": "A limit describes the value a function approaches. A derivative measures how fast a function changes, which is the slope of its graph at a point. Entrance-level items mostly use direct substitution, factoring, and the power rule.",
+      "sections": [
+        {
+          "heading": "Limits",
+          "bullets": [
+            "Try direct substitution first.",
+            "If you get 0/0, factor and cancel, then substitute again.",
+            "Example: (x² − 9)/(x − 3) = x + 3 for x ≠ 3, so the limit as x → 3 is 6."
+          ]
+        },
+        {
+          "heading": "Derivatives",
+          "bullets": [
+            "The derivative of a constant is 0.",
+            "Power rule: bring the exponent down, then subtract 1 from it.",
+            "Differentiate a sum term by term.",
+            "At a maximum or minimum of a smooth curve, the derivative equals 0."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Limit", "definition": "The value a function approaches as the input approaches a number." },
+        { "term": "Derivative", "definition": "The instantaneous rate of change; the slope of the tangent line." }
+      ],
+      "formulas": [
+        { "name": "Power rule", "value": "d/dx (xⁿ) = n·xⁿ⁻¹" },
+        { "name": "Constant multiple", "value": "d/dx (c·f(x)) = c·f′(x)" }
+      ]
+    },
+    {
+      "id": "sci-biology-01",
+      "subjectId": "science",
+      "topicId": "biology",
+      "title": "Cells, Genetics, and Energy",
+      "summary": "Biology items often cover cell parts and their jobs, how cells divide, basic inheritance, and how living things get energy. Link each structure to its function.",
+      "sections": [
+        {
+          "heading": "Cell parts",
+          "bullets": [
+            "Nucleus: holds DNA and controls the cell.",
+            "Mitochondria: release energy (ATP) through cellular respiration.",
+            "Ribosomes: make proteins.",
+            "Chloroplasts and cell wall: found in plant cells, not animal cells."
+          ]
+        },
+        {
+          "heading": "Cell division and inheritance",
+          "bullets": [
+            "Mitosis: 1 cell → 2 identical cells (growth and repair).",
+            "Meiosis: 1 cell → 4 sex cells with half the chromosome number.",
+            "A dominant allele hides a recessive one. Tt × Tt gives a 3 : 1 ratio of traits."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Allele", "definition": "A version of a gene, like T (tall) or t (short)." },
+        { "term": "Genotype vs. phenotype", "definition": "Genotype is the gene combination (Tt); phenotype is the visible trait (tall)." },
+        { "term": "ATP", "definition": "The main energy-carrying molecule used by cells." }
+      ],
+      "formulas": [
+        { "name": "Photosynthesis", "value": "6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂" },
+        { "name": "Cellular respiration", "value": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy (ATP)" }
+      ]
+    },
+    {
+      "id": "sci-chemistry-01",
+      "subjectId": "science",
+      "topicId": "chemistry",
+      "title": "Atoms, Bonds, and Reactions",
+      "summary": "Chemistry items test atomic structure, the periodic table, types of bonds, and balanced reactions. Most calculations are simple subtraction or counting atoms.",
+      "sections": [
+        {
+          "heading": "Atomic structure",
+          "bullets": [
+            "Atomic number = number of protons (identifies the element).",
+            "Mass number = protons + neutrons.",
+            "In a neutral atom, electrons = protons.",
+            "Isotopes have the same protons but different neutrons."
+          ]
+        },
+        {
+          "heading": "Bonds and reactions",
+          "bullets": [
+            "Ionic bond: electrons transferred (metal + nonmetal, e.g., NaCl).",
+            "Covalent bond: electrons shared (nonmetals, e.g., H₂O).",
+            "Balanced equations have the same number of each atom on both sides (conservation of mass).",
+            "Chemical change makes new substances (burning, rusting); physical change does not (melting, cutting)."
+          ]
+        },
+        {
+          "heading": "Acids and bases",
+          "bullets": [
+            "pH below 7: acidic. pH 7: neutral. pH above 7: basic.",
+            "Each step on the pH scale is a tenfold change in acidity."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Isotope", "definition": "Atoms of the same element with different numbers of neutrons." },
+        { "term": "Mole", "definition": "6.022 × 10²³ particles (Avogadro's number)." }
+      ],
+      "formulas": [
+        { "name": "Neutrons", "value": "neutrons = mass number − atomic number" },
+        { "name": "Moles", "value": "moles = mass ÷ molar mass" }
+      ]
+    },
+    {
+      "id": "sci-physics-01",
+      "subjectId": "science",
+      "topicId": "physics",
+      "title": "Motion, Forces, Energy, and Electricity",
+      "summary": "Physics items connect a situation to the right formula. Identify what is given, check the units, then substitute. Newton's laws explain most force questions.",
+      "sections": [
+        {
+          "heading": "Newton's laws",
+          "bullets": [
+            "First law (inertia): an object keeps its motion unless a net force acts on it.",
+            "Second law: F = ma.",
+            "Third law: every action has an equal and opposite reaction."
+          ]
+        },
+        {
+          "heading": "Energy and work",
+          "bullets": [
+            "Kinetic energy depends on speed squared, so doubling speed gives four times the KE.",
+            "Energy is conserved: it changes form but is not created or destroyed.",
+            "Units: force in newtons (N), energy and work in joules (J), power in watts (W)."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Velocity", "definition": "Speed in a given direction." },
+        { "term": "Acceleration", "definition": "The rate of change of velocity." },
+        { "term": "Inertia", "definition": "An object's resistance to changes in its motion." }
+      ],
+      "formulas": [
+        { "name": "Speed", "value": "v = d / t" },
+        { "name": "Acceleration", "value": "a = (v_f − v_i) / t" },
+        { "name": "Newton's second law", "value": "F = ma" },
+        { "name": "Weight", "value": "W = mg (g ≈ 9.8 m/s²)" },
+        { "name": "Kinetic energy", "value": "KE = ½mv²" },
+        { "name": "Potential energy", "value": "PE = mgh" },
+        { "name": "Ohm's law", "value": "V = IR" }
+      ]
+    },
+    {
+      "id": "sci-earth-01",
+      "subjectId": "science",
+      "topicId": "earth-science",
+      "title": "Earth's Structure, Weather, and Space",
+      "summary": "Earth science items cover Earth's layers and moving plates, rocks, the atmosphere, and Earth's motion in space. The Philippines' location on the Pacific Ring of Fire makes plate tectonics especially relevant.",
+      "sections": [
+        {
+          "heading": "Earth's layers and plates",
+          "bullets": [
+            "Layers: crust, mantle, outer core (liquid), inner core (solid).",
+            "Divergent boundary: plates move apart; new crust forms.",
+            "Convergent boundary: plates collide; a denser oceanic plate sinks (subduction), forming trenches and volcanoes.",
+            "Transform boundary: plates slide past each other, causing earthquakes."
+          ]
+        },
+        {
+          "heading": "Rocks",
+          "bullets": [
+            "Igneous: cooled magma or lava.",
+            "Sedimentary: compressed layers of sediment.",
+            "Metamorphic: changed by heat and pressure."
+          ]
+        },
+        {
+          "heading": "Atmosphere and space",
+          "bullets": [
+            "Troposphere: lowest layer, where weather happens.",
+            "Stratosphere: contains the ozone layer.",
+            "Seasons are caused by the tilt of Earth's axis (about 23.5°), not distance from the Sun.",
+            "Moon phases come from how much of the Moon's sunlit side we see."
+          ]
+        }
+      ],
+      "keyTerms": [
+        { "term": "Subduction", "definition": "One plate sinking beneath another at a convergent boundary." },
+        { "term": "Magnitude vs. intensity", "definition": "Magnitude is the energy released by an earthquake; intensity is how strongly it is felt at a place." }
+      ],
+      "formulas": []
+    }
+  ]
+}

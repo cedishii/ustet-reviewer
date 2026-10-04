@@ -1,0 +1,55 @@
+{
+  "subjects": [
+    {
+      "id": "mental-ability",
+      "name": "Mental Ability",
+      "shortName": "Mental Ability",
+      "description": "Patterns, sequences, analogies, logical and abstract reasoning, and everyday problem solving.",
+      "topics": [
+        { "id": "patterns", "name": "Patterns and Sequences" },
+        { "id": "analogies", "name": "Analogies" },
+        { "id": "logical-reasoning", "name": "Logical Reasoning" },
+        { "id": "abstract-reasoning", "name": "Abstract and Spatial Reasoning" },
+        { "id": "problem-solving", "name": "Problem Solving" }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "shortName": "English",
+      "description": "Vocabulary, grammar and usage, reading comprehension, writing concepts, and literature.",
+      "topics": [
+        { "id": "vocabulary", "name": "Vocabulary" },
+        { "id": "grammar", "name": "Grammar and Usage" },
+        { "id": "reading", "name": "Reading Comprehension" },
+        { "id": "writing", "name": "Language and Writing Concepts" },
+        { "id": "literature", "name": "Literature and Critical Reading" }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "shortName": "Math",
+      "description": "Algebra and functions, geometry and trigonometry, statistics and probability, word problems, and basic calculus.",
+      "topics": [
+        { "id": "algebra", "name": "Algebra and Functions" },
+        { "id": "geometry-trigonometry", "name": "Geometry and Trigonometry" },
+        { "id": "statistics-probability", "name": "Statistics and Probability" },
+        { "id": "word-problems", "name": "Word Problems and Business Math" },
+        { "id": "basic-calculus", "name": "Basic Calculus" }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "shortName": "Science",
+      "description": "Biology, chemistry, physics, and earth science fundamentals.",
+      "topics": [
+        { "id": "biology", "name": "Biology" },
+        { "id": "chemistry", "name": "Chemistry" },
+        { "id": "physics", "name": "Physics" },
+        { "id": "earth-science", "name": "Earth Science" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "exam": {
+    "id": "ustet-college-2027-2028",
+    "title": "USTET College Mock Exam",
+    "status": "provisional",
+    "statusNote": "Official UST sources confirm the four sections, but public official sources checked do not publish exact item counts/time limits. The Standard numbers below are community-reported and may differ from the real exam. Replace them when verified.",
+    "sourceNote": "Standard item counts and times as reported by EdgePrep (edgeprep.ph/ustet-exam-guide, updated July 2026), which credits UST's Office for Admissions. Not confirmed on an official UST page.",
+    "sections": [
+      {
+        "subjectId": "mental-ability",
+        "itemCount": 80,
+        "timeMinutes": 30,
+        "verification": "community-reported"
+      },
+      {
+        "subjectId": "english",
+        "itemCount": 45,
+        "timeMinutes": 45,
+        "verification": "community-reported"
+      },
+      {
+        "subjectId": "mathematics",
+        "itemCount": 60,
+        "timeMinutes": 45,
+        "verification": "community-reported"
+      },
+      {
+        "subjectId": "science",
+        "itemCount": 80,
+        "timeMinutes": 45,
+        "verification": "community-reported"
+      }
+    ],
+    "presets": [
+      {
+        "id": "even-practice",
+        "name": "Even practice",
+        "description": "The same length for every subject: 70 questions in 40 minutes each.",
+        "sections": [
+          { "subjectId": "mental-ability", "itemCount": 70, "timeMinutes": 40, "verification": "practice-default" },
+          { "subjectId": "english", "itemCount": 70, "timeMinutes": 40, "verification": "practice-default" },
+          { "subjectId": "mathematics", "itemCount": 70, "timeMinutes": 40, "verification": "practice-default" },
+          { "subjectId": "science", "itemCount": 70, "timeMinutes": 40, "verification": "practice-default" }
+        ]
+      }
+    ],
+    "customPractice": {
+      "questionCountOptions": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+      "timeMinuteOptions": [10, 20, 30, 40, 50, 60],
+      "defaultQuestionCount": 20,
+      "defaultTimeMinutes": 20
+    },
+    "timePressureLevels": [
+      { "label": "Very Easy", "minSecondsPerQuestion": 180 },
+      { "label": "Easy", "minSecondsPerQuestion": 120 },
+      { "label": "Moderately Easy", "minSecondsPerQuestion": 80 },
+      { "label": "Neutral", "minSecondsPerQuestion": 50 },
+      { "label": "Moderately Hard", "minSecondsPerQuestion": 35 },
+      { "label": "Hard", "minSecondsPerQuestion": 25 },
+      { "label": "Very Hard", "minSecondsPerQuestion": 15 },
+      { "label": "Extreme", "minSecondsPerQuestion": 0 }
+    ]
+  }
+}
