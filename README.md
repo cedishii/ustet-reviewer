@@ -2,6 +2,8 @@
 
 A simple, free, offline-capable study app for the **University of Santo Tomas (UST) college entrance test (USTET)**, targeting the **A.Y. 2027–2028** admissions cycle. It runs on a phone or laptop and needs no account, internet connection, or payment.
 
+**Use it now:** <https://cedishii.github.io/ustet-reviewer/>. Open it on your phone, then install it (Android: Chrome → **Install app**; iPhone: Safari → Share → **Add to Home Screen**).
+
 > **Unofficial study tool.** This app is not affiliated with, endorsed by, or connected to the University of Santo Tomas. Practice scores are **not** UST admission ratings, and the app does **not** predict admission.
 
 > **Double-check the content.** The lessons, flashcards, questions and explanations were written with AI assistance. A student or teacher should review them before relying on them. If you find a mistake, fix it in the JSON file (see below).
