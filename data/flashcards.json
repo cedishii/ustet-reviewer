@@ -42,6 +42,26 @@
     { "id": "fc-037", "subjectId": "science", "topicId": "physics", "front": "Newton's second law", "back": "F = ma: net force equals mass times acceleration.", "tags": ["formula", "forces"] },
     { "id": "fc-038", "subjectId": "science", "topicId": "physics", "front": "Kinetic energy", "back": "KE = ½mv². Doubling the speed makes KE four times larger.", "tags": ["formula", "energy"] },
     { "id": "fc-039", "subjectId": "science", "topicId": "physics", "front": "Ohm's law", "back": "V = IR (voltage = current × resistance).", "tags": ["formula", "electricity"] },
-    { "id": "fc-040", "subjectId": "science", "topicId": "earth-science", "front": "Why does the Philippines have many earthquakes and volcanoes?", "back": "It lies on the Pacific Ring of Fire, where tectonic plates meet and one plate sinks beneath another.", "tags": ["plate tectonics"] }
+    { "id": "fc-040", "subjectId": "science", "topicId": "earth-science", "front": "Why does the Philippines have many earthquakes and volcanoes?", "back": "It lies on the Pacific Ring of Fire, where tectonic plates meet and one plate sinks beneath another.", "tags": ["plate tectonics"] },
+    { "id": "fc-041", "subjectId": "mathematics", "topicId": "word-problems", "front": "Percent change", "back": "(new − old) / old × 100%. Example: 80 → 100 is a 25% increase.", "tags": ["percent"] },
+    { "id": "fc-042", "subjectId": "mathematics", "topicId": "word-problems", "front": "Distance, rate, and time", "back": "d = rt, so r = d/t and t = d/r. Average speed = total distance ÷ total time.", "tags": ["motion"] },
+    { "id": "fc-043", "subjectId": "mathematics", "topicId": "statistics-probability", "front": "Probability of an event", "back": "Favorable outcomes ÷ total outcomes. For two draws without replacement, multiply and reduce the second count by one.", "tags": ["probability"] },
+    { "id": "fc-044", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "front": "Circle: area vs. circumference", "back": "Area = πr². Circumference = 2πr. With r = 5: area 78.5, circumference 31.4.", "tags": ["geometry"] },
+    { "id": "fc-045", "subjectId": "mathematics", "topicId": "algebra", "front": "Exponent rules", "back": "aᵐ · aⁿ = aᵐ⁺ⁿ, aᵐ / aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ.", "tags": ["exponents"] },
+    { "id": "fc-046", "subjectId": "mathematics", "topicId": "algebra", "front": "Special products", "back": "(a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², (a + b)(a − b) = a² − b².", "tags": ["factoring"] },
+    { "id": "fc-047", "subjectId": "mathematics", "topicId": "algebra", "front": "Sum and product of roots of ax² + bx + c = 0", "back": "Sum = −b/a. Product = c/a.", "tags": ["quadratics"] },
+    { "id": "fc-048", "subjectId": "science", "topicId": "physics", "front": "Density", "back": "ρ = m / V (mass ÷ volume).", "tags": ["formulas"] },
+    { "id": "fc-049", "subjectId": "science", "topicId": "physics", "front": "Pressure", "back": "P = F / A. Same force on a smaller area = more pressure.", "tags": ["formulas"] },
+    { "id": "fc-050", "subjectId": "science", "topicId": "physics", "front": "Work and power", "back": "Work W = Fd. Power P = W / t.", "tags": ["formulas"] },
+    { "id": "fc-051", "subjectId": "science", "topicId": "physics", "front": "Gravitational potential energy and weight", "back": "PE = mgh. Weight W = mg.", "tags": ["formulas"] },
+    { "id": "fc-052", "subjectId": "science", "topicId": "physics", "front": "Electric power", "back": "P = VI (voltage × current).", "tags": ["electricity"] },
+    { "id": "fc-053", "subjectId": "science", "topicId": "chemistry", "front": "Covalent vs. ionic bond", "back": "Covalent = atoms share electrons. Ionic = electrons are transferred.", "tags": ["bonding"] },
+    { "id": "fc-054", "subjectId": "mental-ability", "topicId": "problem-solving", "front": "How fast do clock hands move?", "back": "Minute hand: 6° per minute. Hour hand: 0.5° per minute. Each hour mark = 30°.", "tags": ["clocks"] },
+    { "id": "fc-055", "subjectId": "mental-ability", "topicId": "abstract-reasoning", "front": "Odd-one-out checklist", "back": "Test category, shape, even/odd, prime/composite, 2D vs. 3D, and function before looking for obscure patterns.", "tags": ["strategy"] },
+    { "id": "fc-056", "subjectId": "english", "topicId": "grammar", "front": "affect vs. effect", "back": "affect = usually a verb (to influence). effect = usually a noun (a result).", "tags": ["usage"] },
+    { "id": "fc-057", "subjectId": "english", "topicId": "grammar", "front": "your vs. you're", "back": "your = belonging to you. you're = you are.", "tags": ["usage"] },
+    { "id": "fc-058", "subjectId": "english", "topicId": "writing", "front": "Parallel structure", "back": "Items in a list use the same form: reading, swimming, biking (not reading, to swim, biking).", "tags": ["sentence structure"] },
+    { "id": "fc-059", "subjectId": "english", "topicId": "writing", "front": "Wordy phrase: \"due to the fact that\"", "back": "Replace it with \"because\". Prefer the clearest, most direct wording.", "tags": ["conciseness"] },
+    { "id": "fc-060", "subjectId": "mental-ability", "topicId": "problem-solving", "front": "Four types of mistakes to track", "back": "Concept, arithmetic, misread, time pressure. Fix the pattern, not just the single item.", "tags": ["strategy"] }
   ]
 }

@@ -1402,6 +1402,1280 @@
       "options": [ { "id": "A", "text": "The Southern Hemisphere is much closer to the Sun." }, { "id": "B", "text": "The Sun gives off more heat in those months." }, { "id": "C", "text": "The Southern Hemisphere is tilted toward the Sun at that time." }, { "id": "D", "text": "The Moon blocks sunlight from the Northern Hemisphere." } ],
       "correctOptionId": "C",
       "explanation": "Earth's tilted axis points one hemisphere toward the Sun while the other points away, so the seasons are opposite."
+    },
+    {
+      "id": "q-math-051", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "neutral", "type": "mcq",
+      "question": "Solve for x: 3^(2x − 1) = 27^(x + 2).",
+      "options": [ { "id": "A", "text": "x = −7" }, { "id": "B", "text": "x = −5" }, { "id": "C", "text": "x = −3" }, { "id": "D", "text": "x = 7" } ],
+      "correctOptionId": "A",
+      "explanation": "Write 27 as 3³: 3^(2x − 1) = 3^(3x + 6). Set the exponents equal: 2x − 1 = 3x + 6, so x = −7."
+    },
+    {
+      "id": "q-math-052", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "What is the domain of the real-valued function f(x) = √(x² − 16)?",
+      "options": [ { "id": "A", "text": "x ≥ 4" }, { "id": "B", "text": "x ≤ −4 or x ≥ 4" }, { "id": "C", "text": "−4 ≤ x ≤ 4" }, { "id": "D", "text": "All real numbers" } ],
+      "correctOptionId": "B",
+      "explanation": "The expression under the square root must not be negative: x² − 16 ≥ 0, so x² ≥ 16. That gives x ≤ −4 or x ≥ 4."
+    },
+    {
+      "id": "q-math-053", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "A parabola has its vertex at (1, −4) and passes through (3, 0). What is its equation in vertex form?",
+      "options": [ { "id": "A", "text": "y = (x − 1)² − 4" }, { "id": "B", "text": "y = 2(x − 1)² − 4" }, { "id": "C", "text": "y = (x + 1)² − 4" }, { "id": "D", "text": "y = 2(x − 3)²" } ],
+      "correctOptionId": "A",
+      "explanation": "Vertex form is y = a(x − h)² + k, so y = a(x − 1)² − 4. Plug in (3, 0): 0 = a(2)² − 4, so 4a = 4 and a = 1."
+    },
+    {
+      "id": "q-math-054", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "neutral", "type": "mcq",
+      "question": "A line has a slope of −3 and an x-intercept of 2. What is its y-intercept?",
+      "options": [ { "id": "A", "text": "6" }, { "id": "B", "text": "−6" }, { "id": "C", "text": "2" }, { "id": "D", "text": "−2" } ],
+      "correctOptionId": "A",
+      "explanation": "The x-intercept is the point (2, 0). Point-slope form: y − 0 = −3(x − 2), so y = −3x + 6. The y-intercept is 6."
+    },
+    {
+      "id": "q-math-055", "subjectId": "mathematics", "topicId": "basic-calculus", "difficulty": "neutral", "type": "mcq",
+      "question": "Evaluate the limit as x approaches 3 of (x² − 9) / (x − 3).",
+      "options": [ { "id": "A", "text": "0" }, { "id": "B", "text": "3" }, { "id": "C", "text": "6" }, { "id": "D", "text": "Undefined" } ],
+      "correctOptionId": "C",
+      "explanation": "Factor: (x − 3)(x + 3) / (x − 3) = x + 3 when x ≠ 3. As x approaches 3, this approaches 3 + 3 = 6."
+    },
+    {
+      "id": "q-math-056", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "In a triangle, side a = 5, side b = 8, and the included angle C = 60°. Use the Law of Cosines to find side c.",
+      "options": [ { "id": "A", "text": "7" }, { "id": "B", "text": "√39" }, { "id": "C", "text": "9" }, { "id": "D", "text": "√89" } ],
+      "correctOptionId": "A",
+      "explanation": "c² = a² + b² − 2ab·cos C = 25 + 64 − 2(5)(8)(0.5) = 89 − 40 = 49, so c = 7."
+    },
+    {
+      "id": "q-math-057", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "If log_b(3) = x and log_b(5) = y, express log_b(45) in terms of x and y.",
+      "options": [ { "id": "A", "text": "2x + y" }, { "id": "B", "text": "x² + y" }, { "id": "C", "text": "x + 2y" }, { "id": "D", "text": "2x − y" } ],
+      "correctOptionId": "A",
+      "explanation": "45 = 3² × 5, so log_b(45) = 2·log_b(3) + log_b(5) = 2x + y."
+    },
+    {
+      "id": "q-math-058", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "neutral", "type": "mcq",
+      "question": "Find the 8th term of the geometric sequence 2, −6, 18, −54, ...",
+      "options": [ { "id": "A", "text": "−4,374" }, { "id": "B", "text": "4,374" }, { "id": "C", "text": "−13,122" }, { "id": "D", "text": "13,122" } ],
+      "correctOptionId": "A",
+      "explanation": "aₙ = a₁ · rⁿ⁻¹ with a₁ = 2 and r = −3. a₈ = 2 × (−3)⁷ = 2 × (−2,187) = −4,374."
+    },
+    {
+      "id": "q-math-059", "subjectId": "mathematics", "topicId": "statistics-probability", "difficulty": "hard", "type": "mcq",
+      "question": "How many different 4-letter arrangements can be formed from the letters of the word PHILIPPINES? (Each letter can be used only as many times as it appears.)",
+      "options": [ { "id": "A", "text": "1,680" }, { "id": "B", "text": "840" }, { "id": "C", "text": "1,254" }, { "id": "D", "text": "7,920" } ],
+      "correctOptionId": "C",
+      "explanation": "PHILIPPINES has 3 P's, 3 I's, and one each of H, L, N, E, S (7 different letters). Count by case: all 4 different = 7 × 6 × 5 × 4 = 840; one letter used twice = 2 × C(6,2) × 12 = 360; P, P, I, I = 6; one letter used three times = 2 × 6 × 4 = 48. Total = 840 + 360 + 6 + 48 = 1,254."
+    },
+    {
+      "id": "q-math-060", "subjectId": "mathematics", "topicId": "statistics-probability", "difficulty": "neutral", "type": "mcq",
+      "question": "Two cards are drawn at the same time from a standard 52-card deck. What is the probability that both are aces?",
+      "options": [ { "id": "A", "text": "1/169" }, { "id": "B", "text": "1/221" }, { "id": "C", "text": "4/663" }, { "id": "D", "text": "1/26" } ],
+      "correctOptionId": "B",
+      "explanation": "P(first ace) = 4/52 = 1/13. P(second ace) = 3/51 = 1/17. Multiply: 1/13 × 1/17 = 1/221."
+    },
+    {
+      "id": "q-math-061", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "difficulty": "easy", "type": "mcq",
+      "question": "Find the midpoint of the segment joining (−3, 5) and (7, −1).",
+      "options": [ { "id": "A", "text": "(2, 2)" }, { "id": "B", "text": "(5, 3)" }, { "id": "C", "text": "(4, 4)" }, { "id": "D", "text": "(2, 3)" } ],
+      "correctOptionId": "A",
+      "explanation": "Midpoint = ((−3 + 7)/2, (5 + (−1))/2) = (4/2, 4/2) = (2, 2)."
+    },
+    {
+      "id": "q-math-062", "subjectId": "mathematics", "topicId": "word-problems", "difficulty": "neutral", "type": "mcq",
+      "question": "A car travels at 60 km/h for 45 minutes and then at 80 km/h for 15 minutes. What is its average speed for the whole 1-hour trip?",
+      "options": [ { "id": "A", "text": "70 km/h" }, { "id": "B", "text": "65 km/h" }, { "id": "C", "text": "68 km/h" }, { "id": "D", "text": "75 km/h" } ],
+      "correctOptionId": "B",
+      "explanation": "Distance = 60 × 0.75 + 80 × 0.25 = 45 + 20 = 65 km. Total time is 1 hour, so the average speed is 65 km/h. (Do not just average 60 and 80.)"
+    },
+    {
+      "id": "q-sci-051", "subjectId": "science", "topicId": "biology", "difficulty": "easy", "type": "mcq",
+      "question": "Which cell transport mechanism uses energy (ATP) to move substances against their concentration gradient?",
+      "options": [ { "id": "A", "text": "Facilitated diffusion" }, { "id": "B", "text": "Osmosis" }, { "id": "C", "text": "Active transport" }, { "id": "D", "text": "Simple diffusion" } ],
+      "correctOptionId": "C",
+      "explanation": "Active transport spends ATP to pump substances from low to high concentration. Diffusion and osmosis are passive and need no energy."
+    },
+    {
+      "id": "q-sci-052", "subjectId": "science", "topicId": "chemistry", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "What type of bond forms when valence electrons are shared unequally between two atoms because of a difference in electronegativity?",
+      "options": [ { "id": "A", "text": "Nonpolar covalent bond" }, { "id": "B", "text": "Polar covalent bond" }, { "id": "C", "text": "Ionic bond" }, { "id": "D", "text": "Metallic bond" } ],
+      "correctOptionId": "B",
+      "explanation": "In a polar covalent bond, electrons are shared but pulled more toward the more electronegative atom. In an ionic bond, electrons are transferred."
+    },
+    {
+      "id": "q-sci-053", "subjectId": "science", "topicId": "physics", "difficulty": "neutral", "type": "mcq",
+      "question": "An object starts from rest and accelerates uniformly at 4.0 m/s² in a straight line. How far does it travel in 5.0 seconds?",
+      "options": [ { "id": "A", "text": "20 m" }, { "id": "B", "text": "50 m" }, { "id": "C", "text": "100 m" }, { "id": "D", "text": "10 m" } ],
+      "correctOptionId": "B",
+      "explanation": "d = vᵢt + ½at². Since vᵢ = 0, d = ½ × 4.0 × 5² = 2 × 25 = 50 m."
+    },
+    {
+      "id": "q-sci-054", "subjectId": "science", "topicId": "earth-science", "difficulty": "easy", "type": "mcq",
+      "question": "Which layer of the Earth is liquid and produces the planet's magnetic field through moving currents of iron and nickel?",
+      "options": [ { "id": "A", "text": "Lithosphere" }, { "id": "B", "text": "Asthenosphere" }, { "id": "C", "text": "Outer core" }, { "id": "D", "text": "Inner core" } ],
+      "correctOptionId": "C",
+      "explanation": "The outer core is molten iron and nickel. Its flowing currents act like a dynamo that creates Earth's magnetic field. The inner core is solid."
+    },
+    {
+      "id": "q-sci-055", "subjectId": "science", "topicId": "biology", "difficulty": "easy", "type": "mcq",
+      "question": "What is the main role of the hormone insulin in the human body?",
+      "options": [ { "id": "A", "text": "To raise blood glucose by breaking down glycogen" }, { "id": "B", "text": "To help cells take in glucose, lowering blood glucose" }, { "id": "C", "text": "To break down fats in fat tissue" }, { "id": "D", "text": "To raise metabolic rate by stimulating the thyroid" } ],
+      "correctOptionId": "B",
+      "explanation": "Insulin, made by the pancreas, helps cells absorb glucose, which lowers blood sugar. Glucagon does the opposite (raises blood sugar)."
+    },
+    {
+      "id": "q-sci-056", "subjectId": "science", "topicId": "physics", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Equal masses of water, aluminum, copper, and gold absorb the same amount of heat. Which one has the greatest temperature increase? (Specific heat: water > aluminum > copper > gold)",
+      "options": [ { "id": "A", "text": "Water" }, { "id": "B", "text": "Aluminum" }, { "id": "C", "text": "Copper" }, { "id": "D", "text": "Gold" } ],
+      "correctOptionId": "D",
+      "explanation": "From q = mcΔT, ΔT = q / (mc). With the same q and m, the substance with the lowest specific heat (gold) heats up the most."
+    },
+    {
+      "id": "q-sci-057", "subjectId": "science", "topicId": "chemistry", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "Which gas law states that at constant pressure, the volume of a gas is directly proportional to its absolute (Kelvin) temperature?",
+      "options": [ { "id": "A", "text": "Boyle's Law" }, { "id": "B", "text": "Charles's Law" }, { "id": "C", "text": "Gay-Lussac's Law" }, { "id": "D", "text": "Avogadro's Law" } ],
+      "correctOptionId": "B",
+      "explanation": "Charles's Law: V₁/T₁ = V₂/T₂ at constant pressure. Boyle's Law relates pressure and volume; Gay-Lussac's relates pressure and temperature."
+    },
+    {
+      "id": "q-sci-058", "subjectId": "science", "topicId": "biology", "difficulty": "easy", "type": "mcq",
+      "question": "In an ecosystem, which organisms form the base of the food pyramid by turning energy from sunlight (or chemicals) into food?",
+      "options": [ { "id": "A", "text": "Primary consumers" }, { "id": "B", "text": "Apex predators" }, { "id": "C", "text": "Decomposers" }, { "id": "D", "text": "Primary producers" } ],
+      "correctOptionId": "D",
+      "explanation": "Primary producers (plants, algae, some bacteria) make their own food, so all other levels depend on them."
+    },
+    {
+      "id": "q-sci-059", "subjectId": "science", "topicId": "physics", "difficulty": "neutral", "type": "mcq",
+      "question": "A light ray passes at an angle from air into glass, which has a higher refractive index. What happens to its speed and direction?",
+      "options": [ { "id": "A", "text": "It speeds up and bends away from the normal." }, { "id": "B", "text": "It slows down and bends toward the normal." }, { "id": "C", "text": "It slows down and bends away from the normal." }, { "id": "D", "text": "Its speed stays the same but it changes direction." } ],
+      "correctOptionId": "B",
+      "explanation": "Light slows down in a denser (higher index) medium and bends toward the normal line. Going the other way, it speeds up and bends away."
+    },
+    {
+      "id": "q-sci-060", "subjectId": "science", "topicId": "chemistry", "difficulty": "easy", "type": "mcq",
+      "question": "Isotopes of the same element differ in the number of which particle?",
+      "options": [ { "id": "A", "text": "Protons" }, { "id": "B", "text": "Electrons" }, { "id": "C", "text": "Neutrons" }, { "id": "D", "text": "Protons and electrons together" } ],
+      "correctOptionId": "C",
+      "explanation": "Isotopes have the same number of protons (so they are the same element) but different numbers of neutrons, giving different mass numbers."
+    },
+    {
+      "id": "q-sci-061", "subjectId": "science", "topicId": "earth-science", "difficulty": "neutral", "type": "mcq",
+      "question": "What type of plate boundary formed the Himalayan mountain range?",
+      "options": [ { "id": "A", "text": "Divergent oceanic boundary" }, { "id": "B", "text": "Transform fault boundary" }, { "id": "C", "text": "Continental-continental convergent boundary" }, { "id": "D", "text": "Oceanic-continental subduction boundary" } ],
+      "correctOptionId": "C",
+      "explanation": "The Indian and Eurasian continental plates collided. Neither sank easily, so the crust crumpled and was pushed up into the Himalayas."
+    },
+    {
+      "id": "q-sci-062", "subjectId": "science", "topicId": "chemistry", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "Which functional group is found in all carboxylic acids?",
+      "options": [ { "id": "A", "text": "−OH (hydroxyl)" }, { "id": "B", "text": "−CHO (aldehyde)" }, { "id": "C", "text": "−COOH (carboxyl)" }, { "id": "D", "text": "−NH₂ (amino)" } ],
+      "correctOptionId": "C",
+      "explanation": "Carboxylic acids (like acetic acid in vinegar) are defined by the carboxyl group, −COOH."
+    },
+    {
+      "id": "q-en-051", "subjectId": "english", "topicId": "grammar", "difficulty": "neutral", "type": "mcq",
+      "question": "Which sentence has correct pronoun-antecedent agreement in formal writing?",
+      "options": [ { "id": "A", "text": "Every applicant must bring their original diploma to the office." }, { "id": "B", "text": "Each student must submit his or her credentials before the deadline." }, { "id": "C", "text": "The committee published their findings after weeks of verification." }, { "id": "D", "text": "Someone left their keys on the library counter yesterday." } ],
+      "correctOptionId": "B",
+      "explanation": "In strict formal grammar, singular words like each, every, and someone take singular pronouns (his or her). A committee acting as one unit takes its."
+    },
+    {
+      "id": "q-en-052", "subjectId": "english", "topicId": "vocabulary", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "Choose the word that best completes the sentence: The professor's explanation was so ________ that even beginning students understood the complex theory at once.",
+      "options": [ { "id": "A", "text": "obscure" }, { "id": "B", "text": "lucid" }, { "id": "C", "text": "ambiguous" }, { "id": "D", "text": "pedantic" } ],
+      "correctOptionId": "B",
+      "explanation": "Lucid means clear and easy to understand, which matches students understanding at once. Obscure and ambiguous mean unclear; pedantic means fussy about small details."
+    },
+    {
+      "id": "q-en-053", "subjectId": "english", "topicId": "writing", "difficulty": "neutral", "type": "mcq",
+      "question": "Which sentence has correct parallel structure?",
+      "options": [ { "id": "A", "text": "The internship offers valuable training, competitive stipends, and networking." }, { "id": "B", "text": "The internship offers valuable training, competitive stipends, and provides networking opportunities." }, { "id": "C", "text": "The internship offers training that is valuable, stipends that are competitive, and networks." }, { "id": "D", "text": "The internship offers valuable training, provides competitive stipends, and networking." } ],
+      "correctOptionId": "A",
+      "explanation": "All three items are nouns that complete \"offers\": training, stipends, networking. The other choices mix nouns and verbs."
+    },
+    {
+      "id": "q-en-054", "subjectId": "english", "topicId": "writing", "difficulty": "neutral", "type": "mcq",
+      "question": "What is the main error in this sentence? \"Running down the hallway, the flower vase was accidentally knocked over by Mark.\"",
+      "options": [ { "id": "A", "text": "Misplaced pronoun" }, { "id": "B", "text": "Dangling modifier" }, { "id": "C", "text": "Faulty parallelism" }, { "id": "D", "text": "Subject-verb disagreement" } ],
+      "correctOptionId": "B",
+      "explanation": "The opening phrase \"Running down the hallway\" should describe the subject, but the subject is the vase. Mark was running, so the modifier dangles."
+    },
+    {
+      "id": "q-en-055", "subjectId": "english", "topicId": "grammar", "difficulty": "easy", "type": "mcq",
+      "question": "Choose the correct word: The sudden drop in interest rates had an immediate ________ on the local real estate market.",
+      "options": [ { "id": "A", "text": "affect" }, { "id": "B", "text": "effect" }, { "id": "C", "text": "affective" }, { "id": "D", "text": "effective" } ],
+      "correctOptionId": "B",
+      "explanation": "After \"an immediate\" you need a noun meaning result: effect. Affect is usually a verb (to influence)."
+    },
+    {
+      "id": "q-en-056", "subjectId": "english", "topicId": "writing", "difficulty": "neutral", "type": "mcq",
+      "question": "Which sentence is punctuated correctly?",
+      "options": [ { "id": "A", "text": "The lecture was long, however, the students stayed attentive." }, { "id": "B", "text": "The lecture was long; however, the students stayed attentive." }, { "id": "C", "text": "The lecture was long however; the students stayed attentive." }, { "id": "D", "text": "The lecture was long, however; the students stayed attentive." } ],
+      "correctOptionId": "B",
+      "explanation": "When \"however\" joins two complete sentences, put a semicolon before it and a comma after it."
+    },
+    {
+      "id": "q-en-057", "subjectId": "english", "topicId": "grammar", "difficulty": "easy", "type": "mcq",
+      "question": "Change to active voice: \"The annual report was meticulously audited by the senior financial consultant.\"",
+      "options": [ { "id": "A", "text": "The senior financial consultant meticulously audited the annual report." }, { "id": "B", "text": "The annual report had been meticulously audited by the senior financial consultant." }, { "id": "C", "text": "Meticulously auditing, the senior financial consultant finished the report." }, { "id": "D", "text": "The senior financial consultant was auditing the annual report meticulously." } ],
+      "correctOptionId": "A",
+      "explanation": "In active voice the doer (the consultant) is the subject and comes before the verb (audited). The meaning and tense stay the same."
+    },
+    {
+      "id": "q-en-058", "subjectId": "english", "topicId": "vocabulary", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "What is the closest antonym (opposite) of \"garrulous\"?",
+      "options": [ { "id": "A", "text": "Loquacious" }, { "id": "B", "text": "Reticent" }, { "id": "C", "text": "Voluble" }, { "id": "D", "text": "Animated" } ],
+      "correctOptionId": "B",
+      "explanation": "Garrulous means very talkative. Reticent means quiet and reserved. Loquacious and voluble are synonyms of garrulous."
+    },
+    {
+      "id": "q-en-059", "subjectId": "english", "topicId": "reading", "difficulty": "neutral", "type": "mcq",
+      "question": "Read the sentence:\n\"The proliferation of digital misinformation has severely compromised public trust in conventional journalistic enterprises.\"\n\nWhat does the author imply?",
+      "options": [ { "id": "A", "text": "Digital news is better than traditional journalism." }, { "id": "B", "text": "Public trust is falling because misinformation makes it harder to know what is true." }, { "id": "C", "text": "Traditional journalism is the main source of misinformation." }, { "id": "D", "text": "More news leads to immediate public clarity." } ],
+      "correctOptionId": "B",
+      "explanation": "The sentence says spreading misinformation has damaged trust in traditional news. It does not say digital news is better or that journalists caused it."
+    },
+    {
+      "id": "q-en-060", "subjectId": "english", "topicId": "vocabulary", "difficulty": "neutral", "type": "mcq",
+      "question": "Read the sentence:\n\"The proliferation of digital misinformation has severely compromised public trust in conventional journalistic enterprises.\"\n\nAs used in the sentence, what does \"proliferation\" mean?",
+      "options": [ { "id": "A", "text": "Rapid reduction" }, { "id": "B", "text": "Gradual decay" }, { "id": "C", "text": "Rapid increase or spread" }, { "id": "D", "text": "Systematic censorship" } ],
+      "correctOptionId": "C",
+      "explanation": "Proliferation means a rapid increase in number or spread, like misinformation multiplying online."
+    },
+    {
+      "id": "q-en-061", "subjectId": "english", "topicId": "grammar", "difficulty": "neutral", "type": "mcq",
+      "question": "Which sentence uses verb tenses correctly?",
+      "options": [ { "id": "A", "text": "By the time the rescue team arrived, the hikers already left the cave." }, { "id": "B", "text": "By the time the rescue team arrived, the hikers had already left the cave." }, { "id": "C", "text": "By the time the rescue team arrives, the hikers already left the cave." }, { "id": "D", "text": "By the time the rescue team had arrived, the hikers will leave the cave." } ],
+      "correctOptionId": "B",
+      "explanation": "The past perfect (had left) shows an action finished before another past action (arrived)."
+    },
+    {
+      "id": "q-ma-051", "subjectId": "mental-ability", "topicId": "analogies", "difficulty": "easy", "type": "mcq",
+      "question": "SCALPEL : SURGEON :: BRUSH : ___",
+      "options": [ { "id": "A", "text": "Sculpture" }, { "id": "B", "text": "Canvas" }, { "id": "C", "text": "Painter" }, { "id": "D", "text": "Studio" } ],
+      "correctOptionId": "C",
+      "explanation": "A scalpel is the tool a surgeon uses; a brush is the tool a painter uses (tool to user)."
+    },
+    {
+      "id": "q-ma-052", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "neutral", "type": "mcq",
+      "question": "In a code, TOKEN is written as VQMGP. How is SHIRT written in the same code?",
+      "options": [ { "id": "A", "text": "UJKTV" }, { "id": "B", "text": "THJSU" }, { "id": "C", "text": "UKKTV" }, { "id": "D", "text": "UFJRT" } ],
+      "correctOptionId": "A",
+      "explanation": "Each letter moves forward 2 places (T→V, O→Q, K→M, E→G, N→P). So S→U, H→J, I→K, R→T, T→V: UJKTV."
+    },
+    {
+      "id": "q-ma-053", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Six people (A, B, C, D, E, F) sit in a row. B sits exactly between A and C. E sits immediately to the right of C. D sits to the left of A. F sits to the left of D. Who sits at the right end?",
+      "options": [ { "id": "A", "text": "C" }, { "id": "B", "text": "E" }, { "id": "C", "text": "B" }, { "id": "D", "text": "F" } ],
+      "correctOptionId": "B",
+      "explanation": "Build it left to right: F, D, A, B, C, E. E is at the right end."
+    },
+    {
+      "id": "q-ma-054", "subjectId": "mental-ability", "topicId": "analogies", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Which word does NOT belong? Obdurate, Obstinate, Intractable, Pliant",
+      "options": [ { "id": "A", "text": "Obdurate" }, { "id": "B", "text": "Obstinate" }, { "id": "C", "text": "Intractable" }, { "id": "D", "text": "Pliant" } ],
+      "correctOptionId": "D",
+      "explanation": "Obdurate, obstinate, and intractable all mean stubborn. Pliant means flexible and easily influenced, the opposite."
+    },
+    {
+      "id": "q-ma-055", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "neutral", "type": "mcq",
+      "question": "A traveler drives 5 km west, turns left and drives 12 km, then turns left again and drives 5 km. How far is the traveler from the starting point?",
+      "options": [ { "id": "A", "text": "5 km" }, { "id": "B", "text": "12 km" }, { "id": "C", "text": "17 km" }, { "id": "D", "text": "0 km" } ],
+      "correctOptionId": "B",
+      "explanation": "West 5, then left (south) 12, then left (east) 5. The east-west moves cancel, leaving the traveler 12 km south of the start."
+    },
+    {
+      "id": "q-ma-056", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "neutral", "type": "mcq",
+      "question": "What comes next? B2, D4, F8, H16, ___",
+      "options": [ { "id": "A", "text": "J24" }, { "id": "B", "text": "I32" }, { "id": "C", "text": "J32" }, { "id": "D", "text": "K32" } ],
+      "correctOptionId": "C",
+      "explanation": "Letters skip one (B, D, F, H, J) and numbers double (2, 4, 8, 16, 32). Next is J32."
+    },
+    {
+      "id": "q-ma-057", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "hard", "type": "mcq",
+      "question": "Premise 1: All mammals have mammary glands. Premise 2: A whale has mammary glands. Conclusion: Therefore, a whale is a mammal. Is this argument logically valid?",
+      "options": [ { "id": "A", "text": "Valid, because the conclusion is biologically true." }, { "id": "B", "text": "Invalid, because it affirms the consequent." }, { "id": "C", "text": "Valid, because whales live in the ocean." }, { "id": "D", "text": "Invalid, because all mammals live on land." } ],
+      "correctOptionId": "B",
+      "explanation": "\"All M have G\" does not mean \"everything with G is an M\". The form is invalid (affirming the consequent) even though the conclusion happens to be true."
+    },
+    {
+      "id": "q-ma-058", "subjectId": "mental-ability", "topicId": "abstract-reasoning", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "A 4 × 4 × 4 cm wooden cube is painted on all outside faces, then cut into 1 × 1 × 1 cm cubes. How many small cubes have no paint at all?",
+      "options": [ { "id": "A", "text": "4" }, { "id": "B", "text": "8" }, { "id": "C", "text": "16" }, { "id": "D", "text": "0" } ],
+      "correctOptionId": "B",
+      "explanation": "Unpainted cubes form the inner core, which is (4 − 2) × (4 − 2) × (4 − 2) = 2³ = 8 cubes."
+    },
+    {
+      "id": "q-ma-059", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "neutral", "type": "mcq",
+      "question": "If 5 workers can build 5 tables in 5 days, how many days will it take 50 workers to build 50 tables at the same rate?",
+      "options": [ { "id": "A", "text": "50 days" }, { "id": "B", "text": "5 days" }, { "id": "C", "text": "10 days" }, { "id": "D", "text": "1 day" } ],
+      "correctOptionId": "B",
+      "explanation": "Each worker builds 1 table in 5 days. With 50 workers, 50 tables also take 5 days."
+    },
+    {
+      "id": "q-math-063", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Solve for x: log₂(x − 1) + log₂(x + 2) = 2.",
+      "options": [ { "id": "A", "text": "x = −3 and x = 2" }, { "id": "B", "text": "x = 2" }, { "id": "C", "text": "x = −2 and x = 3" }, { "id": "D", "text": "x = −3" } ],
+      "correctOptionId": "B",
+      "explanation": "Combine: log₂[(x − 1)(x + 2)] = 2, so x² + x − 2 = 4 and x² + x − 6 = 0, giving (x + 3)(x − 2) = 0. Reject x = −3 because it makes the logarithm's input negative. Only x = 2 works."
+    },
+    {
+      "id": "q-math-064", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "difficulty": "neutral", "type": "mcq",
+      "question": "A cylinder's height is twice its radius (h = 2r). If its volume is 54π cm³, what is the radius?",
+      "options": [ { "id": "A", "text": "6 cm" }, { "id": "B", "text": "9 cm" }, { "id": "C", "text": "3√3 cm" }, { "id": "D", "text": "3 cm" } ],
+      "correctOptionId": "D",
+      "explanation": "V = πr²h = πr²(2r) = 2πr³ = 54π, so r³ = 27 and r = 3 cm."
+    },
+    {
+      "id": "q-math-065", "subjectId": "mathematics", "topicId": "word-problems", "difficulty": "neutral", "type": "mcq",
+      "question": "Anna can finish a project in 6 hours; Ben can finish it in 4 hours. How long will it take if they work together?",
+      "options": [ { "id": "A", "text": "2.4 hours" }, { "id": "B", "text": "5 hours" }, { "id": "C", "text": "3 hours" }, { "id": "D", "text": "2 hours" } ],
+      "correctOptionId": "A",
+      "explanation": "Add the rates: 1/6 + 1/4 = 5/12 of the job per hour. Time = 12/5 = 2.4 hours."
+    },
+    {
+      "id": "q-math-066", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "What is the sum of the infinite geometric series 12 − 4 + 4/3 − 4/9 + ...?",
+      "options": [ { "id": "A", "text": "16" }, { "id": "B", "text": "18" }, { "id": "C", "text": "9" }, { "id": "D", "text": "6" } ],
+      "correctOptionId": "C",
+      "explanation": "a₁ = 12 and r = −1/3. S = a₁ / (1 − r) = 12 / (4/3) = 9."
+    },
+    {
+      "id": "q-sci-063", "subjectId": "science", "topicId": "biology", "difficulty": "neutral", "type": "mcq",
+      "question": "Which cell structure is mainly responsible for making lipids, metabolizing carbohydrates, and detoxifying drugs and poisons?",
+      "options": [ { "id": "A", "text": "Rough endoplasmic reticulum" }, { "id": "B", "text": "Smooth endoplasmic reticulum" }, { "id": "C", "text": "Golgi apparatus" }, { "id": "D", "text": "Mitochondrion" } ],
+      "correctOptionId": "B",
+      "explanation": "The smooth ER (no ribosomes) makes lipids and breaks down toxins. The rough ER (with ribosomes) helps make proteins."
+    },
+    {
+      "id": "q-sci-064", "subjectId": "science", "topicId": "chemistry", "difficulty": "neutral", "type": "mcq",
+      "question": "What is the mass percent of oxygen in water (H₂O)? (H = 1 g/mol, O = 16 g/mol)",
+      "options": [ { "id": "A", "text": "88.9%" }, { "id": "B", "text": "11.1%" }, { "id": "C", "text": "50.0%" }, { "id": "D", "text": "94.1%" } ],
+      "correctOptionId": "A",
+      "explanation": "Molar mass of H₂O = 2(1) + 16 = 18 g/mol. Oxygen % = 16/18 × 100% ≈ 88.9%."
+    },
+    {
+      "id": "q-sci-065", "subjectId": "science", "topicId": "physics", "difficulty": "neutral", "type": "mcq",
+      "question": "A ball is thrown straight up at 20 m/s. Ignoring air resistance, what maximum height does it reach? (g = 10 m/s²)",
+      "options": [ { "id": "A", "text": "10 m" }, { "id": "B", "text": "40 m" }, { "id": "C", "text": "15 m" }, { "id": "D", "text": "20 m" } ],
+      "correctOptionId": "D",
+      "explanation": "At the top, v = 0. Use v² = u² − 2gh: 0 = 400 − 20h, so h = 20 m."
+    },
+    {
+      "id": "q-sci-066", "subjectId": "science", "topicId": "earth-science", "difficulty": "easy", "type": "mcq",
+      "question": "Which type of plate boundary has plates sliding horizontally past each other, causing earthquakes without creating or destroying crust?",
+      "options": [ { "id": "A", "text": "Convergent boundary" }, { "id": "B", "text": "Divergent boundary" }, { "id": "C", "text": "Transform fault boundary" }, { "id": "D", "text": "Subduction zone" } ],
+      "correctOptionId": "C",
+      "explanation": "At transform boundaries (like the San Andreas Fault) plates slide past each other. Divergent boundaries create crust; convergent ones destroy it."
+    },
+    {
+      "id": "q-en-062", "subjectId": "english", "topicId": "grammar", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Which sentence is grammatically correct?",
+      "options": [ { "id": "A", "text": "Every boy and girl in the auditorium is required to submit an essay." }, { "id": "B", "text": "Each of the candidates have stated their platform clearly." }, { "id": "C", "text": "The news are very alarming this quarter." }, { "id": "D", "text": "Mathematics are my favorite subject in high school." } ],
+      "correctOptionId": "A",
+      "explanation": "Subjects introduced by every or each take a singular verb, even when joined by and. \"Each ... have\" should be has; news and mathematics are singular."
+    },
+    {
+      "id": "q-en-063", "subjectId": "english", "topicId": "vocabulary", "difficulty": "easy", "type": "mcq",
+      "question": "What is the closest meaning of \"ephemeral\"?",
+      "options": [ { "id": "A", "text": "Lasting for a very long time" }, { "id": "B", "text": "Lasting for a very short time" }, { "id": "C", "text": "Extremely loud" }, { "id": "D", "text": "Overly cautious" } ],
+      "correctOptionId": "B",
+      "explanation": "Ephemeral means short-lived or fleeting, like a rainbow."
+    },
+    {
+      "id": "q-en-064", "subjectId": "english", "topicId": "reading", "difficulty": "neutral", "type": "mcq",
+      "question": "Read the sentence:\n\"Despite the prevailing economic recession, the tech startup experienced an unprecedented surge in user acquisition, primarily driven by its innovative remote-collaboration tools.\"\n\nWhat is the main implication?",
+      "options": [ { "id": "A", "text": "Tech startups always succeed regardless of the economy." }, { "id": "B", "text": "Recessions are good for all digital companies." }, { "id": "C", "text": "Well-targeted innovation can create demand even in a hard economy." }, { "id": "D", "text": "Remote tools lose value during a recession." } ],
+      "correctOptionId": "C",
+      "explanation": "\"Despite\" signals contrast: the company grew in a bad economy because of its innovative tools. Avoid extreme choices like always or all."
+    },
+    {
+      "id": "q-en-065", "subjectId": "english", "topicId": "writing", "difficulty": "neutral", "type": "mcq",
+      "question": "Which sentence has correct parallel structure?",
+      "options": [ { "id": "A", "text": "She likes hiking, to swim, and reading books." }, { "id": "B", "text": "The manager wanted an assistant who is punctual, efficient, and demonstrates loyalty." }, { "id": "C", "text": "To succeed in college requires discipline, focus, and being adaptable." }, { "id": "D", "text": "The research paper must be thoroughly researched, clearly written, and properly cited." } ],
+      "correctOptionId": "D",
+      "explanation": "All three items share the same form (adverb + past participle): thoroughly researched, clearly written, properly cited."
+    },
+    {
+      "id": "q-ma-060", "subjectId": "mental-ability", "topicId": "analogies", "difficulty": "easy", "type": "mcq",
+      "question": "OMNIVOROUS : MEAT AND PLANTS :: HERBIVOROUS : ___",
+      "options": [ { "id": "A", "text": "Plants only" }, { "id": "B", "text": "Meat only" }, { "id": "C", "text": "Neither meat nor plants" }, { "id": "D", "text": "Both meat and plants" } ],
+      "correctOptionId": "A",
+      "explanation": "An omnivore eats meat and plants; a herbivore eats plants only."
+    },
+    {
+      "id": "q-ma-061", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "easy", "type": "mcq",
+      "question": "What number comes next? 3, 6, 12, 24, 48, ___",
+      "options": [ { "id": "A", "text": "72" }, { "id": "B", "text": "84" }, { "id": "C", "text": "96" }, { "id": "D", "text": "120" } ],
+      "correctOptionId": "C",
+      "explanation": "Each term is multiplied by 2: 48 × 2 = 96."
+    },
+    {
+      "id": "q-ma-062", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "neutral", "type": "mcq",
+      "question": "All engineers are analytical. Some analytical people are creative. Based only on these statements, which conclusion is valid?",
+      "options": [ { "id": "A", "text": "All engineers are creative." }, { "id": "B", "text": "Some engineers may or may not be creative." }, { "id": "C", "text": "No engineers are creative." }, { "id": "D", "text": "All creative people are engineers." } ],
+      "correctOptionId": "B",
+      "explanation": "The creative analytical people may or may not include engineers, so nothing definite can be said about engineers being creative."
+    },
+    {
+      "id": "q-math-067", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "Find y in the system: 2x − 3y = 7 and 4x + y = 7.",
+      "options": [ { "id": "A", "text": "y = −1" }, { "id": "B", "text": "y = 1" }, { "id": "C", "text": "y = 2" }, { "id": "D", "text": "y = 0" } ],
+      "correctOptionId": "A",
+      "explanation": "Multiply the second equation by 3: 12x + 3y = 21. Add to the first: 14x = 28, so x = 2. Then 4(2) + y = 7, so y = −1."
+    },
+    {
+      "id": "q-math-068", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "If sin θ = 5/13 and θ is in Quadrant II, what is tan θ?",
+      "options": [ { "id": "A", "text": "12/5" }, { "id": "B", "text": "−5/12" }, { "id": "C", "text": "5/12" }, { "id": "D", "text": "−12/5" } ],
+      "correctOptionId": "B",
+      "explanation": "Opposite = 5, hypotenuse = 13, so adjacent = √(169 − 25) = 12. tan θ = 5/12, but tangent is negative in Quadrant II: −5/12."
+    },
+    {
+      "id": "q-math-069", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "neutral", "type": "mcq",
+      "question": "Find the sum and product of the roots of 3x² − 6x + 2 = 0.",
+      "options": [ { "id": "A", "text": "Sum = 2, Product = 2/3" }, { "id": "B", "text": "Sum = −2, Product = −2/3" }, { "id": "C", "text": "Sum = 6, Product = 2" }, { "id": "D", "text": "Sum = 2/3, Product = 2" } ],
+      "correctOptionId": "A",
+      "explanation": "For ax² + bx + c = 0: sum = −b/a = 6/3 = 2, product = c/a = 2/3."
+    },
+    {
+      "id": "q-math-070", "subjectId": "mathematics", "topicId": "statistics-probability", "difficulty": "neutral", "type": "mcq",
+      "question": "A council must choose a president, a vice president, and a secretary from 7 candidates. In how many ways can the positions be filled?",
+      "options": [ { "id": "A", "text": "35" }, { "id": "B", "text": "21" }, { "id": "C", "text": "210" }, { "id": "D", "text": "840" } ],
+      "correctOptionId": "C",
+      "explanation": "The positions are different, so order matters (permutation): P(7, 3) = 7 × 6 × 5 = 210."
+    },
+    {
+      "id": "q-math-071", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "neutral", "type": "mcq",
+      "question": "What is the equation of the line through (2, −3) that is perpendicular to y = 2x + 5?",
+      "options": [ { "id": "A", "text": "y = 2x − 7" }, { "id": "B", "text": "y = −½x − 2" }, { "id": "C", "text": "y = −½x + 2" }, { "id": "D", "text": "y = −2x + 1" } ],
+      "correctOptionId": "B",
+      "explanation": "A perpendicular slope is the negative reciprocal: −½. Then y + 3 = −½(x − 2), so y = −½x + 1 − 3 = −½x − 2."
+    },
+    {
+      "id": "q-math-072", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Simplify completely: (8x⁶ / y⁻³)^(1/3)",
+      "options": [ { "id": "A", "text": "2x²y" }, { "id": "B", "text": "2x²/y" }, { "id": "C", "text": "2x³y" }, { "id": "D", "text": "4x²y" } ],
+      "correctOptionId": "A",
+      "explanation": "8x⁶ / y⁻³ = 8x⁶y³. Taking the cube root: 2 · x² · y = 2x²y."
+    },
+    {
+      "id": "q-math-073", "subjectId": "mathematics", "topicId": "statistics-probability", "difficulty": "neutral", "type": "mcq",
+      "question": "A bag has 4 red, 5 blue, and 3 green marbles. Two are drawn one after the other without replacement. What is the probability both are blue?",
+      "options": [ { "id": "A", "text": "25/144" }, { "id": "B", "text": "5/33" }, { "id": "C", "text": "1/6" }, { "id": "D", "text": "5/12" } ],
+      "correctOptionId": "B",
+      "explanation": "P = 5/12 × 4/11 = 20/132 = 5/33."
+    },
+    {
+      "id": "q-math-074", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "What is the 15th term of the arithmetic sequence 5, 11, 17, 23, ...?",
+      "options": [ { "id": "A", "text": "95" }, { "id": "B", "text": "89" }, { "id": "C", "text": "91" }, { "id": "D", "text": "83" } ],
+      "correctOptionId": "B",
+      "explanation": "aₙ = a₁ + (n − 1)d = 5 + 14 × 6 = 5 + 84 = 89."
+    },
+    {
+      "id": "q-math-075", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "difficulty": "easy", "type": "mcq",
+      "question": "What is the measure of each interior angle of a regular hexagon?",
+      "options": [ { "id": "A", "text": "60°" }, { "id": "B", "text": "108°" }, { "id": "C", "text": "120°" }, { "id": "D", "text": "135°" } ],
+      "correctOptionId": "C",
+      "explanation": "Sum of interior angles = (6 − 2) × 180° = 720°. Each of the 6 equal angles is 720° ÷ 6 = 120°."
+    },
+    {
+      "id": "q-math-076", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "neutral", "type": "mcq",
+      "question": "What is the remainder when P(x) = x³ − 2x² + 4x − 5 is divided by (x − 2)?",
+      "options": [ { "id": "A", "text": "−5" }, { "id": "B", "text": "3" }, { "id": "C", "text": "0" }, { "id": "D", "text": "11" } ],
+      "correctOptionId": "B",
+      "explanation": "By the Remainder Theorem, the remainder is P(2) = 8 − 8 + 8 − 5 = 3."
+    },
+    {
+      "id": "q-math-077", "subjectId": "mathematics", "topicId": "statistics-probability", "difficulty": "easy", "type": "mcq",
+      "question": "The mean score of 4 students is 85. When a 5th student's score is added, the mean becomes 82. What did the 5th student score?",
+      "options": [ { "id": "A", "text": "70" }, { "id": "B", "text": "72" }, { "id": "C", "text": "75" }, { "id": "D", "text": "80" } ],
+      "correctOptionId": "A",
+      "explanation": "Sum of 4 scores = 4 × 85 = 340. Sum of 5 scores = 5 × 82 = 410. The 5th score is 410 − 340 = 70."
+    },
+    {
+      "id": "q-math-078", "subjectId": "mathematics", "topicId": "word-problems", "difficulty": "neutral", "type": "mcq",
+      "question": "How many liters of a 20% acid solution must be mixed with 4 liters of a 50% acid solution to make a 30% acid solution?",
+      "options": [ { "id": "A", "text": "6 liters" }, { "id": "B", "text": "8 liters" }, { "id": "C", "text": "10 liters" }, { "id": "D", "text": "5 liters" } ],
+      "correctOptionId": "B",
+      "explanation": "0.20x + 0.50(4) = 0.30(x + 4) → 0.2x + 2 = 0.3x + 1.2 → 0.8 = 0.1x → x = 8 liters."
+    },
+    {
+      "id": "q-sci-067", "subjectId": "science", "topicId": "biology", "difficulty": "neutral", "type": "mcq",
+      "question": "In pea plants, tall (T) is dominant over short (t). If a heterozygous tall plant (Tt) is crossed with a short plant (tt), what is the expected ratio of offspring?",
+      "options": [ { "id": "A", "text": "100% tall" }, { "id": "B", "text": "3 tall : 1 short" }, { "id": "C", "text": "1 tall : 1 short" }, { "id": "D", "text": "1 tall : 3 short" } ],
+      "correctOptionId": "C",
+      "explanation": "Tt × tt gives Tt, Tt, tt, tt: half tall and half short, a 1 : 1 ratio."
+    },
+    {
+      "id": "q-sci-068", "subjectId": "science", "topicId": "chemistry", "difficulty": "easy", "type": "mcq",
+      "question": "In 2H₂ + O₂ → 2H₂O, how many moles of water form when 4.0 moles of H₂ react with excess oxygen?",
+      "options": [ { "id": "A", "text": "2.0 moles" }, { "id": "B", "text": "4.0 moles" }, { "id": "C", "text": "8.0 moles" }, { "id": "D", "text": "1.0 mole" } ],
+      "correctOptionId": "B",
+      "explanation": "H₂ and H₂O are in a 2 : 2 (1 : 1) ratio, so 4.0 mol H₂ makes 4.0 mol H₂O."
+    },
+    {
+      "id": "q-sci-069", "subjectId": "science", "topicId": "physics", "difficulty": "easy", "type": "mcq",
+      "question": "A 5.0 kg box on a frictionless floor is pushed with a net force of 15 N. What is its acceleration?",
+      "options": [ { "id": "A", "text": "3.0 m/s²" }, { "id": "B", "text": "0.33 m/s²" }, { "id": "C", "text": "75 m/s²" }, { "id": "D", "text": "9.8 m/s²" } ],
+      "correctOptionId": "A",
+      "explanation": "a = F / m = 15 N ÷ 5.0 kg = 3.0 m/s²."
+    },
+    {
+      "id": "q-sci-070", "subjectId": "science", "topicId": "earth-science", "difficulty": "easy", "type": "mcq",
+      "question": "Which layer of the atmosphere contains the ozone layer that absorbs harmful ultraviolet radiation?",
+      "options": [ { "id": "A", "text": "Troposphere" }, { "id": "B", "text": "Stratosphere" }, { "id": "C", "text": "Mesosphere" }, { "id": "D", "text": "Thermosphere" } ],
+      "correctOptionId": "B",
+      "explanation": "The ozone layer is in the stratosphere, just above the troposphere where weather happens."
+    },
+    {
+      "id": "q-sci-071", "subjectId": "science", "topicId": "biology", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "In an energy pyramid, about what percentage of energy at one trophic level is passed to the next level?",
+      "options": [ { "id": "A", "text": "100%" }, { "id": "B", "text": "50%" }, { "id": "C", "text": "10%" }, { "id": "D", "text": "1%" } ],
+      "correctOptionId": "C",
+      "explanation": "The 10% rule: most energy is lost as heat or used for life processes, so only about 10% moves up a level."
+    },
+    {
+      "id": "q-sci-072", "subjectId": "science", "topicId": "chemistry", "difficulty": "neutral", "type": "mcq",
+      "question": "Moving left to right across a period of the periodic table, what generally happens to atomic radius and electronegativity?",
+      "options": [ { "id": "A", "text": "Radius increases; electronegativity increases" }, { "id": "B", "text": "Radius decreases; electronegativity decreases" }, { "id": "C", "text": "Radius increases; electronegativity decreases" }, { "id": "D", "text": "Radius decreases; electronegativity increases" } ],
+      "correctOptionId": "D",
+      "explanation": "More protons pull the electrons closer (smaller radius) and attract bonding electrons more strongly (higher electronegativity)."
+    },
+    {
+      "id": "q-sci-073", "subjectId": "science", "topicId": "physics", "difficulty": "easy", "type": "mcq",
+      "question": "A 2.0 kg book is lifted from the floor onto a desk 1.5 m high. By how much does its gravitational potential energy increase? (g = 10 m/s²)",
+      "options": [ { "id": "A", "text": "3.0 J" }, { "id": "B", "text": "15 J" }, { "id": "C", "text": "30 J" }, { "id": "D", "text": "45 J" } ],
+      "correctOptionId": "C",
+      "explanation": "PE = mgh = 2.0 × 10 × 1.5 = 30 J."
+    },
+    {
+      "id": "q-sci-074", "subjectId": "science", "topicId": "earth-science", "difficulty": "easy", "type": "mcq",
+      "question": "What type of rock forms when molten magma or lava cools and hardens?",
+      "options": [ { "id": "A", "text": "Sedimentary" }, { "id": "B", "text": "Metamorphic" }, { "id": "C", "text": "Igneous" }, { "id": "D", "text": "Mineral" } ],
+      "correctOptionId": "C",
+      "explanation": "Igneous rocks form from cooled magma or lava. Sedimentary rocks form from layers of sediment; metamorphic rocks are changed by heat and pressure."
+    },
+    {
+      "id": "q-sci-075", "subjectId": "science", "topicId": "biology", "difficulty": "easy", "type": "mcq",
+      "question": "Muscle cells need a constant supply of ATP. Which organelle is found in large numbers in muscle cells to supply it?",
+      "options": [ { "id": "A", "text": "Lysosome" }, { "id": "B", "text": "Mitochondrion" }, { "id": "C", "text": "Ribosome" }, { "id": "D", "text": "Chloroplast" } ],
+      "correctOptionId": "B",
+      "explanation": "Mitochondria produce ATP through cellular respiration, so very active cells like muscle cells have many of them. Animal cells have no chloroplasts."
+    },
+    {
+      "id": "q-sci-076", "subjectId": "science", "topicId": "chemistry", "difficulty": "neutral", "type": "mcq",
+      "question": "Which change increases the solubility of a solid solute (like sugar) in a liquid (like water)?",
+      "options": [ { "id": "A", "text": "Decreasing the temperature" }, { "id": "B", "text": "Increasing the temperature" }, { "id": "C", "text": "Increasing the pressure" }, { "id": "D", "text": "Stirring faster" } ],
+      "correctOptionId": "B",
+      "explanation": "For most solids, higher temperature means more sugar can dissolve. Stirring only makes it dissolve faster; pressure mainly affects gases."
+    },
+    {
+      "id": "q-sci-077", "subjectId": "science", "topicId": "physics", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "An object is placed beyond the focal point of a concave mirror. What kind of image is formed?",
+      "options": [ { "id": "A", "text": "Real and inverted" }, { "id": "B", "text": "Virtual and upright" }, { "id": "C", "text": "Real and upright" }, { "id": "D", "text": "Virtual and inverted" } ],
+      "correctOptionId": "A",
+      "explanation": "Beyond the focal point, reflected rays meet in front of the mirror, forming a real, upside-down image. Inside the focal point you get a virtual, upright image."
+    },
+    {
+      "id": "q-sci-078", "subjectId": "science", "topicId": "chemistry", "difficulty": "neutral", "type": "mcq",
+      "question": "Solution A has pH 3.0 and Solution B has pH 6.0. How many times more acidic is A than B?",
+      "options": [ { "id": "A", "text": "2 times" }, { "id": "B", "text": "3 times" }, { "id": "C", "text": "100 times" }, { "id": "D", "text": "1,000 times" } ],
+      "correctOptionId": "D",
+      "explanation": "The pH scale is base-10 logarithmic. A difference of 3 pH units means 10³ = 1,000 times more acidic."
+    },
+    {
+      "id": "q-en-066", "subjectId": "english", "topicId": "writing", "difficulty": "neutral", "type": "mcq",
+      "question": "Which sentence does NOT contain a dangling or misplaced modifier?",
+      "options": [ { "id": "A", "text": "Walking down the street, the bright sign caught her eye." }, { "id": "B", "text": "To win the championship, intensive training must be done every day." }, { "id": "C", "text": "While reading a classic novel, the electricity suddenly went out." }, { "id": "D", "text": "While reading a classic novel, she noticed the electricity suddenly go out." } ],
+      "correctOptionId": "D",
+      "explanation": "The opening phrase must describe the subject that follows. Only \"she\" can be reading the novel; the sign, the training, and the electricity cannot."
+    },
+    {
+      "id": "q-en-067", "subjectId": "english", "topicId": "vocabulary", "difficulty": "easy", "type": "mcq",
+      "question": "\"The CEO decided to call off the merger because the companies could not agree on leadership terms.\" What does \"call off\" mean?",
+      "options": [ { "id": "A", "text": "Postpone" }, { "id": "B", "text": "Cancel" }, { "id": "C", "text": "Announce" }, { "id": "D", "text": "Speed up" } ],
+      "correctOptionId": "B",
+      "explanation": "To call off means to cancel. To put off means to postpone."
+    },
+    {
+      "id": "q-en-068", "subjectId": "english", "topicId": "grammar", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Which sentence shows correct pronoun agreement in formal writing?",
+      "options": [ { "id": "A", "text": "Neither the choir members nor the conductor brought their sheet music." }, { "id": "B", "text": "Neither the choir members nor the conductor brought his or her sheet music." }, { "id": "C", "text": "Every student in the lab must submit their own report by noon." }, { "id": "D", "text": "The pack of wolves tracked their prey through the valley." } ],
+      "correctOptionId": "B",
+      "explanation": "With neither/nor, the pronoun agrees with the nearer noun. \"Conductor\" is singular, so use his or her."
+    },
+    {
+      "id": "q-en-069", "subjectId": "english", "topicId": "vocabulary", "difficulty": "easy", "type": "mcq",
+      "question": "\"Her performance in the debate was impeccable, leaving no room for her opponents to find flaws.\" What is a synonym for \"impeccable\"?",
+      "options": [ { "id": "A", "text": "Flawless" }, { "id": "B", "text": "Aggressive" }, { "id": "C", "text": "Pretentious" }, { "id": "D", "text": "Average" } ],
+      "correctOptionId": "A",
+      "explanation": "Impeccable means without fault, which the sentence supports (no flaws to find)."
+    },
+    {
+      "id": "q-en-070", "subjectId": "english", "topicId": "grammar", "difficulty": "neutral", "type": "mcq",
+      "question": "By the time the professor arrives next Monday, the student assistants ________ setting up the lab equipment.",
+      "options": [ { "id": "A", "text": "will finish" }, { "id": "B", "text": "will have finished" }, { "id": "C", "text": "finished" }, { "id": "D", "text": "have finished" } ],
+      "correctOptionId": "B",
+      "explanation": "The future perfect (will have finished) shows an action completed before another future event."
+    },
+    {
+      "id": "q-en-071", "subjectId": "english", "topicId": "grammar", "difficulty": "easy", "type": "mcq",
+      "question": "The structural changes had a profound ________ on student performance across the campus.",
+      "options": [ { "id": "A", "text": "affect" }, { "id": "B", "text": "effect" }, { "id": "C", "text": "effective" }, { "id": "D", "text": "affective" } ],
+      "correctOptionId": "B",
+      "explanation": "After \"a profound\" you need a noun meaning result: effect."
+    },
+    {
+      "id": "q-en-072", "subjectId": "english", "topicId": "writing", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Which sentence is punctuated correctly?",
+      "options": [ { "id": "A", "text": "The itinerary includes three stops, Tokyo, Japan, Paris, France, and Rome, Italy." }, { "id": "B", "text": "The itinerary includes three stops: Tokyo, Japan; Paris, France; and Rome, Italy." }, { "id": "C", "text": "The itinerary includes three stops; Tokyo, Japan, Paris, France, and Rome, Italy." }, { "id": "D", "text": "The itinerary includes three stops: Tokyo, Japan, Paris, France and Rome, Italy." } ],
+      "correctOptionId": "B",
+      "explanation": "A colon introduces the list. Because each item already contains a comma, semicolons separate the items."
+    },
+    {
+      "id": "q-en-073", "subjectId": "english", "topicId": "grammar", "difficulty": "easy", "type": "mcq",
+      "question": "Which sentence is in the active voice?",
+      "options": [ { "id": "A", "text": "The research data was carefully examined by the analytics team." }, { "id": "B", "text": "A mistake was made during the final step of the experiment." }, { "id": "C", "text": "The senior project manager approved the budget revisions yesterday." }, { "id": "D", "text": "The trophy will be presented by the league commissioner tonight." } ],
+      "correctOptionId": "C",
+      "explanation": "In active voice the subject does the action: the manager approved. The others use a form of \"be\" + past participle (passive)."
+    },
+    {
+      "id": "q-en-074", "subjectId": "english", "topicId": "reading", "difficulty": "neutral", "type": "mcq",
+      "question": "Read the passage:\n\"The concept of cognitive reserve suggests that individuals who engage in mentally stimulating activities throughout their lives develop a resilience to neuropathological damage. While structural changes associated with cognitive decline, such as brain atrophy or the accumulation of amyloid plaques, may still occur, individuals with high cognitive reserve can utilize alternative neural networks to maintain functional capacity. Consequently, tracking an individual's educational level, occupational complexity, and social engagement offers far more accurate prognostic insight into their daily functional longevity than relying solely on direct neuroimaging metrics.\"\n\nAccording to the passage, what does cognitive reserve allow a person to do?",
+      "options": [ { "id": "A", "text": "Prevent all brain damage and atrophy" }, { "id": "B", "text": "Keep functioning day to day by using alternative neural pathways" }, { "id": "C", "text": "Reverse plaques through social activity" }, { "id": "D", "text": "Get clearer brain scans" } ],
+      "correctOptionId": "B",
+      "explanation": "The passage says damage may still occur, but people with high reserve use alternative neural networks to keep functioning."
+    },
+    {
+      "id": "q-en-075", "subjectId": "english", "topicId": "reading", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Read the passage:\n\"The concept of cognitive reserve suggests that individuals who engage in mentally stimulating activities throughout their lives develop a resilience to neuropathological damage. While structural changes associated with cognitive decline, such as brain atrophy or the accumulation of amyloid plaques, may still occur, individuals with high cognitive reserve can utilize alternative neural networks to maintain functional capacity. Consequently, tracking an individual's educational level, occupational complexity, and social engagement offers far more accurate prognostic insight into their daily functional longevity than relying solely on direct neuroimaging metrics.\"\n\nWhat does the passage imply about neuroimaging (brain scans)?",
+      "options": [ { "id": "A", "text": "They are useless for older patients." }, { "id": "B", "text": "They predict daily functioning less accurately than lifestyle factors do." }, { "id": "C", "text": "They always conflict with a person's education level." }, { "id": "D", "text": "They are cheaper than studying lifestyle history." } ],
+      "correctOptionId": "B",
+      "explanation": "The last sentence says education, job complexity, and social life give more accurate insight than scans alone. It does not call scans useless."
+    },
+    {
+      "id": "q-en-076", "subjectId": "english", "topicId": "vocabulary", "difficulty": "neutral", "type": "mcq",
+      "question": "Read the passage:\n\"The concept of cognitive reserve suggests that individuals who engage in mentally stimulating activities throughout their lives develop a resilience to neuropathological damage. While structural changes associated with cognitive decline, such as brain atrophy or the accumulation of amyloid plaques, may still occur, individuals with high cognitive reserve can utilize alternative neural networks to maintain functional capacity. Consequently, tracking an individual's educational level, occupational complexity, and social engagement offers far more accurate prognostic insight into their daily functional longevity than relying solely on direct neuroimaging metrics.\"\n\nAs used in the passage, what does \"prognostic\" mean?",
+      "options": [ { "id": "A", "text": "Related to budgeting" }, { "id": "B", "text": "Predicting a future outcome or course" }, { "id": "C", "text": "Ancient and historically proven" }, { "id": "D", "text": "Difficult to interpret" } ],
+      "correctOptionId": "B",
+      "explanation": "A prognosis is a prediction of how something (like a health condition) will develop. Prognostic insight helps predict the future."
+    },
+    {
+      "id": "q-ma-063", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "easy", "type": "mcq",
+      "question": "What number comes next? 2, 5, 11, 23, 47, ___",
+      "options": [ { "id": "A", "text": "71" }, { "id": "B", "text": "95" }, { "id": "C", "text": "94" }, { "id": "D", "text": "96" } ],
+      "correctOptionId": "B",
+      "explanation": "Each term is (previous × 2) + 1: 47 × 2 + 1 = 95."
+    },
+    {
+      "id": "q-ma-064", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "neutral", "type": "mcq",
+      "question": "What letter comes next? J, F, M, A, M, J, J, ___",
+      "options": [ { "id": "A", "text": "A" }, { "id": "B", "text": "S" }, { "id": "C", "text": "O" }, { "id": "D", "text": "K" } ],
+      "correctOptionId": "A",
+      "explanation": "These are the first letters of the months: January to July. August comes next."
+    },
+    {
+      "id": "q-ma-065", "subjectId": "mental-ability", "topicId": "analogies", "difficulty": "easy", "type": "mcq",
+      "question": "MIND : COGNITION :: HEART : ___",
+      "options": [ { "id": "A", "text": "Respiration" }, { "id": "B", "text": "Circulation" }, { "id": "C", "text": "Digestion" }, { "id": "D", "text": "Neurology" } ],
+      "correctOptionId": "B",
+      "explanation": "The mind carries out cognition (thinking); the heart carries out circulation (pumping blood)."
+    },
+    {
+      "id": "q-ma-066", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "neutral", "type": "mcq",
+      "question": "Premise 1: All planets in our solar system orbit the Sun. Premise 2: Kepler-186f orbits a star that is not the Sun. Conclusion: Kepler-186f is not a planet in our solar system. Is the conclusion valid?",
+      "options": [ { "id": "A", "text": "Valid" }, { "id": "B", "text": "Invalid" }, { "id": "C", "text": "Valid only if Kepler-186f is larger than Earth" }, { "id": "D", "text": "Cannot be decided without more data" } ],
+      "correctOptionId": "A",
+      "explanation": "If it were a planet in our solar system, it would orbit the Sun. It does not, so it cannot be one. This is a valid form (denying the consequent)."
+    },
+    {
+      "id": "q-ma-067", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "In a code, CAMPUS is written as EBOQWT. How is TIGER written in the same code?",
+      "options": [ { "id": "A", "text": "VKIGT" }, { "id": "B", "text": "VJIFT" }, { "id": "C", "text": "UKIGS" }, { "id": "D", "text": "VJIHU" } ],
+      "correctOptionId": "B",
+      "explanation": "The shifts alternate +2, +1, +2, +1, ...: C→E, A→B, M→O, P→Q, U→W, S→T. For TIGER: T→V, I→J, G→I, E→F, R→T = VJIFT."
+    },
+    {
+      "id": "q-ma-068", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "neutral", "type": "mcq",
+      "question": "A person walks 10 m north, turns right and walks 6 m, turns right again and walks 18 m, then turns right and walks 6 m. Where is the person now compared with the start?",
+      "options": [ { "id": "A", "text": "8 m north" }, { "id": "B", "text": "8 m south" }, { "id": "C", "text": "14 m south" }, { "id": "D", "text": "At the starting point" } ],
+      "correctOptionId": "B",
+      "explanation": "North 10, east 6, south 18, west 6. East and west cancel; 10 north − 18 south = 8 m south."
+    },
+    {
+      "id": "q-ma-069", "subjectId": "mental-ability", "topicId": "analogies", "difficulty": "neutral", "type": "mcq",
+      "question": "Which word does NOT belong? Epiphany, Insight, Delusion, Realization",
+      "options": [ { "id": "A", "text": "Epiphany" }, { "id": "B", "text": "Insight" }, { "id": "C", "text": "Delusion" }, { "id": "D", "text": "Realization" } ],
+      "correctOptionId": "C",
+      "explanation": "Epiphany, insight, and realization all mean a true understanding. A delusion is a false belief."
+    },
+    {
+      "id": "q-ma-070", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "neutral", "type": "mcq",
+      "question": "What comes next? AZ, CX, EV, GT, ___",
+      "options": [ { "id": "A", "text": "HS" }, { "id": "B", "text": "IR" }, { "id": "C", "text": "KP" }, { "id": "D", "text": "JQ" } ],
+      "correctOptionId": "B",
+      "explanation": "First letters go forward by 2 (A, C, E, G, I); second letters go backward by 2 (Z, X, V, T, R). Next is IR."
+    },
+    {
+      "id": "q-ma-071", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Five runners (A, B, C, D, E) finish a race with no ties. A finished immediately ahead of B. D finished immediately ahead of A. C finished ahead of D. E did not finish in the top three. Who finished last?",
+      "options": [ { "id": "A", "text": "B" }, { "id": "B", "text": "E" }, { "id": "C", "text": "C" }, { "id": "D", "text": "D" } ],
+      "correctOptionId": "B",
+      "explanation": "D, A, B must finish together in that order, and C is ahead of D. E is not in the top three, so the only order is C, D, A, B, E. E is last."
+    },
+    {
+      "id": "q-ma-072", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "moderately-hard", "type": "mcq",
+      "question": "Is the integer x divisible by 6?\nStatement 1: x is divisible by 2.\nStatement 2: x is divisible by 3.\nWhich is true about the statements?",
+      "options": [ { "id": "A", "text": "Statement 1 alone is enough." }, { "id": "B", "text": "Statement 2 alone is enough." }, { "id": "C", "text": "Both together are enough, but neither alone is." }, { "id": "D", "text": "Both together are still not enough." } ],
+      "correctOptionId": "C",
+      "explanation": "A number is divisible by 6 only if it is divisible by both 2 and 3. Each statement alone is not enough; together they are."
+    },
+    {
+      "id": "q-en-077", "subjectId": "english", "topicId": "grammar", "difficulty": "easy", "type": "mcq",
+      "question": "Which sentence has correct subject-verb agreement?",
+      "options": [ { "id": "A", "text": "The list of requirements are posted online." }, { "id": "B", "text": "The list of requirements is posted online." }, { "id": "C", "text": "The requirements list are posted online." }, { "id": "D", "text": "The list of requirement were posted online." } ],
+      "correctOptionId": "B",
+      "explanation": "The subject is \"list\" (singular), not \"requirements\", so the verb is \"is\"."
+    },
+    {
+      "id": "q-en-078", "subjectId": "english", "topicId": "vocabulary", "difficulty": "easy", "type": "mcq",
+      "question": "Which word best completes the sentence? The scientist remained ____ despite repeated criticism of her theory.",
+      "options": [ { "id": "A", "text": "resilient" }, { "id": "B", "text": "reluctant" }, { "id": "C", "text": "obsolete" }, { "id": "D", "text": "fragile" } ],
+      "correctOptionId": "A",
+      "explanation": "Resilient means able to stay strong or recover despite difficulty, which fits \"despite repeated criticism\"."
+    },
+    {
+      "id": "q-en-079", "subjectId": "english", "topicId": "grammar", "difficulty": "easy", "type": "mcq",
+      "question": "Which sentence uses pronouns correctly in formal writing?",
+      "options": [ { "id": "A", "text": "Each student must submit their form before noon." }, { "id": "B", "text": "Each student must submit his or her form before noon." }, { "id": "C", "text": "Each students must submit his form before noon." }, { "id": "D", "text": "Each student must submits their form before noon." } ],
+      "correctOptionId": "B",
+      "explanation": "In formal singular agreement, \"each student\" pairs with \"his or her\" and the base verb \"submit\"."
+    },
+    {
+      "id": "q-en-080", "subjectId": "english", "topicId": "reading", "difficulty": "easy", "type": "mcq",
+      "question": "Read the statement: \"Because the road was flooded, classes were suspended.\" What is the cause?",
+      "options": [ { "id": "A", "text": "Classes were suspended." }, { "id": "B", "text": "The road was flooded." }, { "id": "C", "text": "Students stayed home." }, { "id": "D", "text": "The weather improved." } ],
+      "correctOptionId": "B",
+      "explanation": "\"Because\" introduces the cause: the flooding caused the suspension of classes."
+    },
+    {
+      "id": "q-en-081", "subjectId": "english", "topicId": "grammar", "difficulty": "easy", "type": "mcq",
+      "question": "Which sentence uses the word \"affect\" correctly?",
+      "options": [ { "id": "A", "text": "The new rule will affect attendance." }, { "id": "B", "text": "The new rule had a positive affect." }, { "id": "C", "text": "Attendance was an affect of the rule." }, { "id": "D", "text": "The affect was immediately visible." } ],
+      "correctOptionId": "A",
+      "explanation": "Affect is usually a verb meaning to influence. The other sentences need the noun \"effect\"."
+    },
+    {
+      "id": "q-en-082", "subjectId": "english", "topicId": "writing", "difficulty": "easy", "type": "mcq",
+      "question": "Which sentence is punctuated correctly?",
+      "options": [ { "id": "A", "text": "After the exam we went, home." }, { "id": "B", "text": "After the exam, we went home." }, { "id": "C", "text": "After, the exam we went home." }, { "id": "D", "text": "After the exam we, went home." } ],
+      "correctOptionId": "B",
+      "explanation": "An introductory phrase like \"After the exam\" is normally followed by a comma."
+    },
+    {
+      "id": "q-en-083", "subjectId": "english", "topicId": "vocabulary", "difficulty": "easy", "type": "mcq",
+      "question": "Choose the best synonym for \"concise\".",
+      "options": [ { "id": "A", "text": "lengthy" }, { "id": "B", "text": "brief" }, { "id": "C", "text": "uncertain" }, { "id": "D", "text": "ornamental" } ],
+      "correctOptionId": "B",
+      "explanation": "Concise means brief but clear, saying a lot in few words."
+    },
+    {
+      "id": "q-en-084", "subjectId": "english", "topicId": "grammar", "difficulty": "easy", "type": "mcq",
+      "question": "Which sentence is in the passive voice?",
+      "options": [ { "id": "A", "text": "The committee approved the proposal." }, { "id": "B", "text": "The proposal was approved by the committee." }, { "id": "C", "text": "The committee will review the proposal." }, { "id": "D", "text": "The proposal impressed the committee." } ],
+      "correctOptionId": "B",
+      "explanation": "In passive voice the receiver of the action (the proposal) is the subject: \"was approved by\"."
+    },
+    {
+      "id": "q-en-085", "subjectId": "english", "topicId": "writing", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "Which transition best completes the sentence? The first experiment failed; ____, the researchers revised their method and tried again.",
+      "options": [ { "id": "A", "text": "however" }, { "id": "B", "text": "for example" }, { "id": "C", "text": "therefore" }, { "id": "D", "text": "meanwhile" } ],
+      "correctOptionId": "C",
+      "explanation": "The revision happened as a result of the failure, so \"therefore\" (cause and effect) fits best."
+    },
+    {
+      "id": "q-en-086", "subjectId": "english", "topicId": "vocabulary", "difficulty": "easy", "type": "mcq",
+      "question": "Choose the correctly spelled word.",
+      "options": [ { "id": "A", "text": "accomodate" }, { "id": "B", "text": "acommodate" }, { "id": "C", "text": "accommodate" }, { "id": "D", "text": "accomadate" } ],
+      "correctOptionId": "C",
+      "explanation": "Accommodate has two c's and two m's."
+    },
+    {
+      "id": "q-en-087", "subjectId": "english", "topicId": "reading", "difficulty": "easy", "type": "mcq",
+      "question": "What is the main idea of this sentence? \"Regular exercise improves cardiovascular health, strengthens muscles, and may reduce stress.\"",
+      "options": [ { "id": "A", "text": "Exercise is expensive." }, { "id": "B", "text": "Exercise has several health benefits." }, { "id": "C", "text": "Only athletes should exercise." }, { "id": "D", "text": "Stress is caused by weak muscles." } ],
+      "correctOptionId": "B",
+      "explanation": "All the details describe different health benefits of regular exercise."
+    },
+    {
+      "id": "q-en-088", "subjectId": "english", "topicId": "vocabulary", "difficulty": "easy", "type": "mcq",
+      "question": "Which word is an antonym of \"scarce\"?",
+      "options": [ { "id": "A", "text": "rare" }, { "id": "B", "text": "limited" }, { "id": "C", "text": "abundant" }, { "id": "D", "text": "insufficient" } ],
+      "correctOptionId": "C",
+      "explanation": "Scarce means in short supply; abundant means plentiful. The other choices are synonyms of scarce."
+    },
+    {
+      "id": "q-en-089", "subjectId": "english", "topicId": "writing", "difficulty": "easy", "type": "mcq",
+      "question": "Which sentence avoids a dangling modifier?",
+      "options": [ { "id": "A", "text": "Walking to school, the rain soaked Maria." }, { "id": "B", "text": "Walking to school, Maria was soaked by the rain." }, { "id": "C", "text": "Walking to school, the backpack became wet." }, { "id": "D", "text": "Walking to school, there was heavy rain." } ],
+      "correctOptionId": "B",
+      "explanation": "\"Walking to school\" must describe the subject that follows. Maria is the one walking."
+    },
+    {
+      "id": "q-en-090", "subjectId": "english", "topicId": "reading", "difficulty": "easy", "type": "mcq",
+      "question": "In reading comprehension, what does it mean to \"infer\"?",
+      "options": [ { "id": "A", "text": "Copy a sentence exactly" }, { "id": "B", "text": "Form a conclusion from evidence" }, { "id": "C", "text": "Look up a word in a dictionary" }, { "id": "D", "text": "Summarize every detail" } ],
+      "correctOptionId": "B",
+      "explanation": "To infer is to reach a conclusion from clues or evidence that are not stated directly."
+    },
+    {
+      "id": "q-en-091", "subjectId": "english", "topicId": "writing", "difficulty": "easy", "type": "mcq",
+      "question": "Which sentence uses parallel structure correctly?",
+      "options": [ { "id": "A", "text": "She enjoys reading, to swim, and biking." }, { "id": "B", "text": "She enjoys reading, swimming, and biking." }, { "id": "C", "text": "She enjoys to read, swimming, and to bike." }, { "id": "D", "text": "She enjoys read, swim, and biking." } ],
+      "correctOptionId": "B",
+      "explanation": "All three items use the same -ing form: reading, swimming, biking."
+    },
+    {
+      "id": "q-en-092", "subjectId": "english", "topicId": "reading", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "Read: \"The library extended its hours during finals week. Attendance increased by 40%.\" Which conclusion is most reasonable?",
+      "options": [ { "id": "A", "text": "Students dislike libraries." }, { "id": "B", "text": "Longer hours may have contributed to higher attendance." }, { "id": "C", "text": "Final exams were canceled." }, { "id": "D", "text": "Attendance always rises by exactly 40%." } ],
+      "correctOptionId": "B",
+      "explanation": "The timing suggests a possible link, but it does not prove a universal or exact rule. \"May have contributed\" stays within the evidence."
+    },
+    {
+      "id": "q-en-093", "subjectId": "english", "topicId": "grammar", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "Which sentence is grammatically correct?",
+      "options": [ { "id": "A", "text": "Neither the teacher nor the students was ready." }, { "id": "B", "text": "Neither the teacher nor the students were ready." }, { "id": "C", "text": "Neither the teacher or the students were ready." }, { "id": "D", "text": "Neither teacher nor students is ready." } ],
+      "correctOptionId": "B",
+      "explanation": "With neither...nor, the verb agrees with the nearer subject. \"Students\" is plural, so \"were\" fits. Neither pairs with nor, not or."
+    },
+    {
+      "id": "q-en-094", "subjectId": "english", "topicId": "vocabulary", "difficulty": "easy", "type": "mcq",
+      "question": "What does the prefix \"inter-\" most commonly mean?",
+      "options": [ { "id": "A", "text": "before" }, { "id": "B", "text": "between or among" }, { "id": "C", "text": "against" }, { "id": "D", "text": "under" } ],
+      "correctOptionId": "B",
+      "explanation": "Inter- means between or among, as in international or interact."
+    },
+    {
+      "id": "q-en-095", "subjectId": "english", "topicId": "writing", "difficulty": "easy", "type": "mcq",
+      "question": "Choose the clearest revision: \"Due to the fact that the bus was late, we arrived after noon.\"",
+      "options": [ { "id": "A", "text": "Because the bus was late, we arrived after noon." }, { "id": "B", "text": "Due to the bus having lateness, we arrived after noon." }, { "id": "C", "text": "The bus was late due to the fact we arrived after noon." }, { "id": "D", "text": "We arrived after noon, due to fact, bus late." } ],
+      "correctOptionId": "A",
+      "explanation": "\"Because\" says the same thing more directly than \"due to the fact that\"."
+    },
+    {
+      "id": "q-en-096", "subjectId": "english", "topicId": "writing", "difficulty": "easy", "type": "mcq",
+      "question": "In the sentence \"The evidence was compelling; nevertheless, the jury remained unconvinced,\" what relationship does \"nevertheless\" show?",
+      "options": [ { "id": "A", "text": "addition" }, { "id": "B", "text": "contrast" }, { "id": "C", "text": "sequence" }, { "id": "D", "text": "example" } ],
+      "correctOptionId": "B",
+      "explanation": "Nevertheless signals contrast between the strong evidence and the jury not being convinced."
+    },
+    {
+      "id": "q-math-079", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "Solve for x: 3x + 7 = 25.",
+      "options": [ { "id": "A", "text": "4" }, { "id": "B", "text": "6" }, { "id": "C", "text": "8" }, { "id": "D", "text": "10" } ],
+      "correctOptionId": "B",
+      "explanation": "Subtract 7: 3x = 18. Divide by 3: x = 6."
+    },
+    {
+      "id": "q-math-080", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "Simplify: 2(3x − 4) + 5.",
+      "options": [ { "id": "A", "text": "6x − 3" }, { "id": "B", "text": "6x + 1" }, { "id": "C", "text": "5x − 3" }, { "id": "D", "text": "6x − 8" } ],
+      "correctOptionId": "A",
+      "explanation": "Distribute: 6x − 8. Then add 5: 6x − 3."
+    },
+    {
+      "id": "q-math-081", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "If f(x) = x² − 3x + 2, what is f(4)?",
+      "options": [ { "id": "A", "text": "2" }, { "id": "B", "text": "4" }, { "id": "C", "text": "6" }, { "id": "D", "text": "8" } ],
+      "correctOptionId": "C",
+      "explanation": "f(4) = 16 − 12 + 2 = 6."
+    },
+    {
+      "id": "q-math-082", "subjectId": "mathematics", "topicId": "word-problems", "difficulty": "easy", "type": "mcq",
+      "question": "A shirt costs ₱800 and is discounted by 15%. What is the sale price?",
+      "options": [ { "id": "A", "text": "₱680" }, { "id": "B", "text": "₱700" }, { "id": "C", "text": "₱720" }, { "id": "D", "text": "₱740" } ],
+      "correctOptionId": "A",
+      "explanation": "15% of 800 = 120, so the sale price is 800 − 120 = ₱680. (Shortcut: 800 × 0.85.)"
+    },
+    {
+      "id": "q-math-083", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "What is the slope of the line through (2, 3) and (6, 11)?",
+      "options": [ { "id": "A", "text": "1" }, { "id": "B", "text": "2" }, { "id": "C", "text": "3" }, { "id": "D", "text": "4" } ],
+      "correctOptionId": "B",
+      "explanation": "Slope = (11 − 3) / (6 − 2) = 8 / 4 = 2."
+    },
+    {
+      "id": "q-math-084", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "Solve: x² − 9 = 0.",
+      "options": [ { "id": "A", "text": "x = 9 only" }, { "id": "B", "text": "x = 3 only" }, { "id": "C", "text": "x = ±3" }, { "id": "D", "text": "x = ±9" } ],
+      "correctOptionId": "C",
+      "explanation": "x² = 9, so x can be 3 or −3. Don't forget the negative root."
+    },
+    {
+      "id": "q-math-085", "subjectId": "mathematics", "topicId": "word-problems", "difficulty": "easy", "type": "mcq",
+      "question": "What is 3/4 + 5/8?",
+      "options": [ { "id": "A", "text": "7/8" }, { "id": "B", "text": "1" }, { "id": "C", "text": "11/8" }, { "id": "D", "text": "13/8" } ],
+      "correctOptionId": "C",
+      "explanation": "3/4 = 6/8, and 6/8 + 5/8 = 11/8."
+    },
+    {
+      "id": "q-math-086", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "difficulty": "easy", "type": "mcq",
+      "question": "A right triangle has legs of 6 cm and 8 cm. What is the hypotenuse?",
+      "options": [ { "id": "A", "text": "10 cm" }, { "id": "B", "text": "12 cm" }, { "id": "C", "text": "14 cm" }, { "id": "D", "text": "16 cm" } ],
+      "correctOptionId": "A",
+      "explanation": "c = √(6² + 8²) = √100 = 10 cm. (A 3-4-5 triangle doubled.)"
+    },
+    {
+      "id": "q-math-087", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "difficulty": "easy", "type": "mcq",
+      "question": "What is the area of a circle with radius 5? Use π ≈ 3.14.",
+      "options": [ { "id": "A", "text": "31.4" }, { "id": "B", "text": "62.8" }, { "id": "C", "text": "78.5" }, { "id": "D", "text": "157" } ],
+      "correctOptionId": "C",
+      "explanation": "A = πr² = 3.14 × 25 = 78.5. (31.4 is the circumference, a common trap.)"
+    },
+    {
+      "id": "q-math-088", "subjectId": "mathematics", "topicId": "word-problems", "difficulty": "easy", "type": "mcq",
+      "question": "If 5 notebooks cost ₱175, how much do 8 notebooks cost at the same rate?",
+      "options": [ { "id": "A", "text": "₱240" }, { "id": "B", "text": "₱260" }, { "id": "C", "text": "₱280" }, { "id": "D", "text": "₱300" } ],
+      "correctOptionId": "C",
+      "explanation": "One notebook costs 175 ÷ 5 = ₱35. Eight cost 8 × 35 = ₱280."
+    },
+    {
+      "id": "q-math-089", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "Solve the inequality: 2x − 5 > 9.",
+      "options": [ { "id": "A", "text": "x > 2" }, { "id": "B", "text": "x > 7" }, { "id": "C", "text": "x < 7" }, { "id": "D", "text": "x < 2" } ],
+      "correctOptionId": "B",
+      "explanation": "Add 5: 2x > 14. Divide by 2: x > 7."
+    },
+    {
+      "id": "q-math-090", "subjectId": "mathematics", "topicId": "statistics-probability", "difficulty": "easy", "type": "mcq",
+      "question": "What is the median of 3, 5, 7, 8, 12?",
+      "options": [ { "id": "A", "text": "5" }, { "id": "B", "text": "7" }, { "id": "C", "text": "7.5" }, { "id": "D", "text": "8" } ],
+      "correctOptionId": "B",
+      "explanation": "The list is already in order; the middle value is 7."
+    },
+    {
+      "id": "q-math-091", "subjectId": "mathematics", "topicId": "statistics-probability", "difficulty": "easy", "type": "mcq",
+      "question": "A bag contains 3 red, 2 blue, and 5 green balls. What is the probability of drawing a blue ball?",
+      "options": [ { "id": "A", "text": "1/5" }, { "id": "B", "text": "1/4" }, { "id": "C", "text": "1/3" }, { "id": "D", "text": "2/5" } ],
+      "correctOptionId": "A",
+      "explanation": "There are 10 balls and 2 are blue: 2/10 = 1/5."
+    },
+    {
+      "id": "q-math-092", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "Simplify: (x³)(x⁴).",
+      "options": [ { "id": "A", "text": "x⁷" }, { "id": "B", "text": "x¹²" }, { "id": "C", "text": "2x⁷" }, { "id": "D", "text": "x" } ],
+      "correctOptionId": "A",
+      "explanation": "When multiplying powers with the same base, add the exponents: 3 + 4 = 7."
+    },
+    {
+      "id": "q-math-093", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "What is the value of √144 + √25?",
+      "options": [ { "id": "A", "text": "12" }, { "id": "B", "text": "15" }, { "id": "C", "text": "17" }, { "id": "D", "text": "19" } ],
+      "correctOptionId": "C",
+      "explanation": "√144 = 12 and √25 = 5, so the total is 17."
+    },
+    {
+      "id": "q-math-094", "subjectId": "mathematics", "topicId": "geometry-trigonometry", "difficulty": "easy", "type": "mcq",
+      "question": "A rectangle has a perimeter of 50 cm and a length of 15 cm. What is its width?",
+      "options": [ { "id": "A", "text": "5 cm" }, { "id": "B", "text": "10 cm" }, { "id": "C", "text": "15 cm" }, { "id": "D", "text": "20 cm" } ],
+      "correctOptionId": "B",
+      "explanation": "2(L + W) = 50, so L + W = 25. With L = 15, W = 10 cm."
+    },
+    {
+      "id": "q-math-095", "subjectId": "mathematics", "topicId": "word-problems", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "If y varies directly as x, and y = 18 when x = 6, what is y when x = 10?",
+      "options": [ { "id": "A", "text": "24" }, { "id": "B", "text": "27" }, { "id": "C", "text": "30" }, { "id": "D", "text": "36" } ],
+      "correctOptionId": "C",
+      "explanation": "Direct variation: y = kx. k = 18 / 6 = 3, so y = 3 × 10 = 30."
+    },
+    {
+      "id": "q-math-096", "subjectId": "mathematics", "topicId": "algebra", "difficulty": "easy", "type": "mcq",
+      "question": "Which is equivalent to (a + b)²?",
+      "options": [ { "id": "A", "text": "a² + b²" }, { "id": "B", "text": "a² + 2ab + b²" }, { "id": "C", "text": "a² − 2ab + b²" }, { "id": "D", "text": "2a² + 2b²" } ],
+      "correctOptionId": "B",
+      "explanation": "(a + b)² = a² + 2ab + b². The middle term 2ab is the one people forget."
+    },
+    {
+      "id": "q-math-097", "subjectId": "mathematics", "topicId": "statistics-probability", "difficulty": "easy", "type": "mcq",
+      "question": "The mean of four numbers is 12. Three of them are 9, 11, and 14. What is the fourth number?",
+      "options": [ { "id": "A", "text": "12" }, { "id": "B", "text": "13" }, { "id": "C", "text": "14" }, { "id": "D", "text": "15" } ],
+      "correctOptionId": "C",
+      "explanation": "The total must be 4 × 12 = 48. The known numbers add to 34, so the fourth is 48 − 34 = 14."
+    },
+    {
+      "id": "q-math-098", "subjectId": "mathematics", "topicId": "word-problems", "difficulty": "easy", "type": "mcq",
+      "question": "A car travels 180 km in 3 hours at a constant speed. How far will it travel in 5 hours?",
+      "options": [ { "id": "A", "text": "240 km" }, { "id": "B", "text": "270 km" }, { "id": "C", "text": "300 km" }, { "id": "D", "text": "360 km" } ],
+      "correctOptionId": "C",
+      "explanation": "Speed = 180 ÷ 3 = 60 km/h. In 5 hours: 60 × 5 = 300 km."
+    },
+    {
+      "id": "q-sci-079", "subjectId": "science", "topicId": "biology", "difficulty": "easy", "type": "mcq",
+      "question": "Which organelle is mainly responsible for producing ATP in eukaryotic cells?",
+      "options": [ { "id": "A", "text": "Nucleus" }, { "id": "B", "text": "Mitochondrion" }, { "id": "C", "text": "Ribosome" }, { "id": "D", "text": "Golgi apparatus" } ],
+      "correctOptionId": "B",
+      "explanation": "Mitochondria carry out cellular respiration and make most of the cell's ATP."
+    },
+    {
+      "id": "q-sci-080", "subjectId": "science", "topicId": "biology", "difficulty": "easy", "type": "mcq",
+      "question": "During photosynthesis, plants mainly absorb which gas from the air?",
+      "options": [ { "id": "A", "text": "Oxygen" }, { "id": "B", "text": "Nitrogen" }, { "id": "C", "text": "Carbon dioxide" }, { "id": "D", "text": "Hydrogen" } ],
+      "correctOptionId": "C",
+      "explanation": "Plants use carbon dioxide and water to make glucose, releasing oxygen."
+    },
+    {
+      "id": "q-sci-081", "subjectId": "science", "topicId": "chemistry", "difficulty": "easy", "type": "mcq",
+      "question": "What type of bond involves the sharing of electrons?",
+      "options": [ { "id": "A", "text": "Ionic bond" }, { "id": "B", "text": "Covalent bond" }, { "id": "C", "text": "Hydrogen bond" }, { "id": "D", "text": "Metallic ionization" } ],
+      "correctOptionId": "B",
+      "explanation": "Covalent bonds form when atoms share pairs of electrons. Ionic bonds form when electrons are transferred."
+    },
+    {
+      "id": "q-sci-082", "subjectId": "science", "topicId": "chemistry", "difficulty": "easy", "type": "mcq",
+      "question": "Which statement about acids is correct?",
+      "options": [ { "id": "A", "text": "They always have a pH above 7." }, { "id": "B", "text": "They release H⁺ ions in water." }, { "id": "C", "text": "They are all harmless." }, { "id": "D", "text": "They cannot react with bases." } ],
+      "correctOptionId": "B",
+      "explanation": "Acids increase the concentration of H⁺ ions in water and have a pH below 7."
+    },
+    {
+      "id": "q-sci-083", "subjectId": "science", "topicId": "physics", "difficulty": "easy", "type": "mcq",
+      "question": "Which equation states Newton's second law of motion?",
+      "options": [ { "id": "A", "text": "F = ma" }, { "id": "B", "text": "E = mc²" }, { "id": "C", "text": "V = IR" }, { "id": "D", "text": "P = IV" } ],
+      "correctOptionId": "A",
+      "explanation": "Newton's second law: net force equals mass times acceleration."
+    },
+    {
+      "id": "q-sci-084", "subjectId": "science", "topicId": "physics", "difficulty": "easy", "type": "mcq",
+      "question": "A 2 kg object accelerates at 3 m/s². What net force acts on it?",
+      "options": [ { "id": "A", "text": "1.5 N" }, { "id": "B", "text": "5 N" }, { "id": "C", "text": "6 N" }, { "id": "D", "text": "9 N" } ],
+      "correctOptionId": "C",
+      "explanation": "F = ma = 2 × 3 = 6 N."
+    },
+    {
+      "id": "q-sci-085", "subjectId": "science", "topicId": "physics", "difficulty": "easy", "type": "mcq",
+      "question": "Which form of energy is stored in a stretched spring?",
+      "options": [ { "id": "A", "text": "Kinetic energy" }, { "id": "B", "text": "Elastic potential energy" }, { "id": "C", "text": "Thermal energy" }, { "id": "D", "text": "Nuclear energy" } ],
+      "correctOptionId": "B",
+      "explanation": "A stretched or compressed spring stores elastic potential energy."
+    },
+    {
+      "id": "q-sci-086", "subjectId": "science", "topicId": "physics", "difficulty": "easy", "type": "mcq",
+      "question": "What process turns liquid water into water vapor?",
+      "options": [ { "id": "A", "text": "Condensation" }, { "id": "B", "text": "Evaporation" }, { "id": "C", "text": "Freezing" }, { "id": "D", "text": "Sublimation" } ],
+      "correctOptionId": "B",
+      "explanation": "Evaporation is liquid to gas. Condensation is gas to liquid; sublimation is solid straight to gas."
+    },
+    {
+      "id": "q-sci-087", "subjectId": "science", "topicId": "biology", "difficulty": "easy", "type": "mcq",
+      "question": "Which blood cells mainly carry oxygen?",
+      "options": [ { "id": "A", "text": "White blood cells" }, { "id": "B", "text": "Platelets" }, { "id": "C", "text": "Red blood cells" }, { "id": "D", "text": "Plasma cells" } ],
+      "correctOptionId": "C",
+      "explanation": "Red blood cells contain hemoglobin, which binds and carries oxygen."
+    },
+    {
+      "id": "q-sci-088", "subjectId": "science", "topicId": "biology", "difficulty": "easy", "type": "mcq",
+      "question": "DNA is best described as a molecule that:",
+      "options": [ { "id": "A", "text": "stores genetic information" }, { "id": "B", "text": "digests proteins" }, { "id": "C", "text": "pumps blood" }, { "id": "D", "text": "produces sound" } ],
+      "correctOptionId": "A",
+      "explanation": "DNA stores the hereditary instructions used to build and run an organism."
+    },
+    {
+      "id": "q-sci-089", "subjectId": "science", "topicId": "chemistry", "difficulty": "easy", "type": "mcq",
+      "question": "Which is an example of a physical change?",
+      "options": [ { "id": "A", "text": "Rusting iron" }, { "id": "B", "text": "Burning paper" }, { "id": "C", "text": "Melting ice" }, { "id": "D", "text": "Cooking an egg" } ],
+      "correctOptionId": "C",
+      "explanation": "Melting changes state but not the substance (it is still water). The others make new substances (chemical changes)."
+    },
+    {
+      "id": "q-sci-090", "subjectId": "science", "topicId": "physics", "difficulty": "easy", "type": "mcq",
+      "question": "What happens to pressure if the same force is applied over a smaller area?",
+      "options": [ { "id": "A", "text": "It decreases." }, { "id": "B", "text": "It increases." }, { "id": "C", "text": "It becomes zero." }, { "id": "D", "text": "It stays the same." } ],
+      "correctOptionId": "B",
+      "explanation": "P = F / A. A smaller area with the same force gives greater pressure (why knives are sharp)."
+    },
+    {
+      "id": "q-sci-091", "subjectId": "science", "topicId": "physics", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "Which electromagnetic wave has the shortest wavelength?",
+      "options": [ { "id": "A", "text": "Radio waves" }, { "id": "B", "text": "Microwaves" }, { "id": "C", "text": "Visible light" }, { "id": "D", "text": "Gamma rays" } ],
+      "correctOptionId": "D",
+      "explanation": "Gamma rays have the shortest wavelength and highest frequency and energy. Radio waves have the longest."
+    },
+    {
+      "id": "q-sci-092", "subjectId": "science", "topicId": "earth-science", "difficulty": "easy", "type": "mcq",
+      "question": "What is the main cause of ocean tides on Earth?",
+      "options": [ { "id": "A", "text": "Earth's magnetic field" }, { "id": "B", "text": "The Moon's gravity, with a smaller pull from the Sun" }, { "id": "C", "text": "Volcanic eruptions" }, { "id": "D", "text": "Ocean temperature only" } ],
+      "correctOptionId": "B",
+      "explanation": "Tides are driven mainly by the Moon's gravitational pull, with the Sun also contributing."
+    },
+    {
+      "id": "q-sci-093", "subjectId": "science", "topicId": "biology", "difficulty": "easy", "type": "mcq",
+      "question": "In a food chain, which organisms make their own food?",
+      "options": [ { "id": "A", "text": "Consumers" }, { "id": "B", "text": "Decomposers" }, { "id": "C", "text": "Producers" }, { "id": "D", "text": "Predators" } ],
+      "correctOptionId": "C",
+      "explanation": "Producers, such as plants and algae, make their own food, usually through photosynthesis."
+    },
+    {
+      "id": "q-sci-094", "subjectId": "science", "topicId": "chemistry", "difficulty": "easy", "type": "mcq",
+      "question": "Which particle has a negative electric charge?",
+      "options": [ { "id": "A", "text": "Proton" }, { "id": "B", "text": "Neutron" }, { "id": "C", "text": "Electron" }, { "id": "D", "text": "Nucleus" } ],
+      "correctOptionId": "C",
+      "explanation": "Electrons are negative, protons are positive, and neutrons have no charge."
+    },
+    {
+      "id": "q-sci-095", "subjectId": "science", "topicId": "chemistry", "difficulty": "easy", "type": "mcq",
+      "question": "Which gas law states that pressure and volume are inversely related at constant temperature?",
+      "options": [ { "id": "A", "text": "Boyle's law" }, { "id": "B", "text": "Charles's law" }, { "id": "C", "text": "Ohm's law" }, { "id": "D", "text": "Hooke's law" } ],
+      "correctOptionId": "A",
+      "explanation": "Boyle's law: P₁V₁ = P₂V₂ for a fixed amount of gas at constant temperature."
+    },
+    {
+      "id": "q-sci-096", "subjectId": "science", "topicId": "biology", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "What is natural selection?",
+      "options": [ { "id": "A", "text": "The random creation of identical organisms" }, { "id": "B", "text": "A process in which inherited traits that help survival and reproduction become more common over generations" }, { "id": "C", "text": "A way of changing the weather" }, { "id": "D", "text": "An individual organism adapting on purpose by choice" } ],
+      "correctOptionId": "B",
+      "explanation": "Natural selection changes how common traits are across generations when inherited differences affect survival and reproduction. Individuals do not choose to adapt."
+    },
+    {
+      "id": "q-sci-097", "subjectId": "science", "topicId": "physics", "difficulty": "easy", "type": "mcq",
+      "question": "Which instrument is used to measure electric current?",
+      "options": [ { "id": "A", "text": "Voltmeter" }, { "id": "B", "text": "Ammeter" }, { "id": "C", "text": "Barometer" }, { "id": "D", "text": "Thermometer" } ],
+      "correctOptionId": "B",
+      "explanation": "An ammeter measures current (in amperes). A voltmeter measures voltage."
+    },
+    {
+      "id": "q-ma-073", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "easy", "type": "mcq",
+      "question": "What number comes next? 2, 4, 8, 16, ___",
+      "options": [ { "id": "A", "text": "18" }, { "id": "B", "text": "24" }, { "id": "C", "text": "32" }, { "id": "D", "text": "30" } ],
+      "correctOptionId": "C",
+      "explanation": "Each term is doubled: 16 × 2 = 32."
+    },
+    {
+      "id": "q-ma-074", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "easy", "type": "mcq",
+      "question": "What number comes next? 3, 6, 11, 18, 27, ___",
+      "options": [ { "id": "A", "text": "36" }, { "id": "B", "text": "38" }, { "id": "C", "text": "40" }, { "id": "D", "text": "35" } ],
+      "correctOptionId": "B",
+      "explanation": "The differences are +3, +5, +7, +9, so the next difference is +11: 27 + 11 = 38."
+    },
+    {
+      "id": "q-ma-075", "subjectId": "mental-ability", "topicId": "analogies", "difficulty": "easy", "type": "mcq",
+      "question": "BOOK : READING :: FORK : ___",
+      "options": [ { "id": "A", "text": "Cooking" }, { "id": "B", "text": "Eating" }, { "id": "C", "text": "Kitchen" }, { "id": "D", "text": "Spoon" } ],
+      "correctOptionId": "B",
+      "explanation": "A book is used for reading; a fork is used for eating (object to use)."
+    },
+    {
+      "id": "q-ma-076", "subjectId": "mental-ability", "topicId": "abstract-reasoning", "difficulty": "easy", "type": "mcq",
+      "question": "Which does NOT belong? Triangle, Square, Circle, Cube",
+      "options": [ { "id": "A", "text": "Triangle" }, { "id": "B", "text": "Square" }, { "id": "C", "text": "Circle" }, { "id": "D", "text": "Cube" } ],
+      "correctOptionId": "D",
+      "explanation": "Triangle, square, and circle are flat (2D) shapes; a cube is a solid (3D) shape."
+    },
+    {
+      "id": "q-ma-077", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "easy", "type": "mcq",
+      "question": "All MER are TAV. All TAV are LON. Which statement must be true?",
+      "options": [ { "id": "A", "text": "All LON are MER." }, { "id": "B", "text": "All MER are LON." }, { "id": "C", "text": "No MER are LON." }, { "id": "D", "text": "Some TAV are not MER." } ],
+      "correctOptionId": "B",
+      "explanation": "If every MER is a TAV and every TAV is a LON, then every MER is also a LON. The reverse is not guaranteed."
+    },
+    {
+      "id": "q-ma-078", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "easy", "type": "mcq",
+      "question": "What number comes next? 5, 10, 20, 40, ___",
+      "options": [ { "id": "A", "text": "60" }, { "id": "B", "text": "70" }, { "id": "C", "text": "75" }, { "id": "D", "text": "80" } ],
+      "correctOptionId": "D",
+      "explanation": "The sequence doubles each time: 40 × 2 = 80."
+    },
+    {
+      "id": "q-ma-079", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "easy", "type": "mcq",
+      "question": "If CAT is coded as DBU, how is DOG coded?",
+      "options": [ { "id": "A", "text": "EPH" }, { "id": "B", "text": "CNF" }, { "id": "C", "text": "EPG" }, { "id": "D", "text": "DPH" } ],
+      "correctOptionId": "A",
+      "explanation": "Each letter moves forward by 1: D→E, O→P, G→H, so DOG becomes EPH."
+    },
+    {
+      "id": "q-ma-080", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "easy", "type": "mcq",
+      "question": "What is the smaller angle between the hands of a clock at exactly 3:00?",
+      "options": [ { "id": "A", "text": "60°" }, { "id": "B", "text": "75°" }, { "id": "C", "text": "90°" }, { "id": "D", "text": "120°" } ],
+      "correctOptionId": "C",
+      "explanation": "At 3:00 the minute hand points to 12 and the hour hand to 3: 3 × 30° = 90°."
+    },
+    {
+      "id": "q-ma-081", "subjectId": "mental-ability", "topicId": "abstract-reasoning", "difficulty": "easy", "type": "mcq",
+      "question": "Which number does NOT belong? 7, 11, 9, 13",
+      "options": [ { "id": "A", "text": "7" }, { "id": "B", "text": "11" }, { "id": "C", "text": "9" }, { "id": "D", "text": "13" } ],
+      "correctOptionId": "C",
+      "explanation": "7, 11, and 13 are prime. 9 is not prime (9 = 3 × 3)."
+    },
+    {
+      "id": "q-ma-082", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "Some A are B. All B are C. Which conclusion must be true?",
+      "options": [ { "id": "A", "text": "All A are C." }, { "id": "B", "text": "Some A are C." }, { "id": "C", "text": "No A are C." }, { "id": "D", "text": "All C are A." } ],
+      "correctOptionId": "B",
+      "explanation": "The A's that are B must also be C, so at least some A are C. Nothing is known about the other A's."
+    },
+    {
+      "id": "q-ma-083", "subjectId": "mental-ability", "topicId": "analogies", "difficulty": "easy", "type": "mcq",
+      "question": "BIRD : NEST :: BEE : ___",
+      "options": [ { "id": "A", "text": "Honey" }, { "id": "B", "text": "Hive" }, { "id": "C", "text": "Flower" }, { "id": "D", "text": "Swarm" } ],
+      "correctOptionId": "B",
+      "explanation": "A bird lives in a nest; a bee lives in a hive (animal to home)."
+    },
+    {
+      "id": "q-ma-084", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "If yesterday was Thursday, what day will it be three days after tomorrow?",
+      "options": [ { "id": "A", "text": "Monday" }, { "id": "B", "text": "Tuesday" }, { "id": "C", "text": "Wednesday" }, { "id": "D", "text": "Sunday" } ],
+      "correctOptionId": "B",
+      "explanation": "Yesterday Thursday → today Friday → tomorrow Saturday. Three days after Saturday is Tuesday."
+    },
+    {
+      "id": "q-ma-085", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "easy", "type": "mcq",
+      "question": "Ana is taller than Ben. Ben is taller than Carl. Which must be true?",
+      "options": [ { "id": "A", "text": "Carl is taller than Ana." }, { "id": "B", "text": "Ana is taller than Carl." }, { "id": "C", "text": "Ben is the tallest." }, { "id": "D", "text": "Carl and Ana are the same height." } ],
+      "correctOptionId": "B",
+      "explanation": "Height ordering carries over: Ana > Ben and Ben > Carl, so Ana > Carl."
+    },
+    {
+      "id": "q-ma-086", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "easy", "type": "mcq",
+      "question": "What number comes next? 1, 4, 9, 16, 25, ___",
+      "options": [ { "id": "A", "text": "30" }, { "id": "B", "text": "32" }, { "id": "C", "text": "36" }, { "id": "D", "text": "49" } ],
+      "correctOptionId": "C",
+      "explanation": "These are square numbers: 1², 2², 3², 4², 5², so next is 6² = 36."
+    },
+    {
+      "id": "q-ma-087", "subjectId": "mental-ability", "topicId": "analogies", "difficulty": "easy", "type": "mcq",
+      "question": "PUPPY : DOG :: KITTEN : ___",
+      "options": [ { "id": "A", "text": "Cat" }, { "id": "B", "text": "Kennel" }, { "id": "C", "text": "Mouse" }, { "id": "D", "text": "Lion" } ],
+      "correctOptionId": "A",
+      "explanation": "A puppy is a young dog; a kitten is a young cat."
+    },
+    {
+      "id": "q-ma-088", "subjectId": "mental-ability", "topicId": "logical-reasoning", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "Four friends line up. Ana must be somewhere before Ben, and Dan must be somewhere before Cara. Which order works?",
+      "options": [ { "id": "A", "text": "Ben, Ana, Dan, Cara" }, { "id": "B", "text": "Cara, Dan, Ana, Ben" }, { "id": "C", "text": "Dan, Cara, Ana, Ben" }, { "id": "D", "text": "Ana, Cara, Dan, Ben" } ],
+      "correctOptionId": "C",
+      "explanation": "Check both rules on each choice. Only Dan, Cara, Ana, Ben has Ana before Ben and Dan before Cara."
+    },
+    {
+      "id": "q-ma-089", "subjectId": "mental-ability", "topicId": "patterns", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "What number comes next? 90, 81, 73, 66, 60, ___",
+      "options": [ { "id": "A", "text": "54" }, { "id": "B", "text": "55" }, { "id": "C", "text": "56" }, { "id": "D", "text": "53" } ],
+      "correctOptionId": "B",
+      "explanation": "Subtract 9, 8, 7, 6, then 5: 60 − 5 = 55."
+    },
+    {
+      "id": "q-ma-090", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "moderately-easy", "type": "mcq",
+      "question": "In a code, NORTH is written as 51423 (each digit stands for the letter in the same position). Which digit stands for R?",
+      "options": [ { "id": "A", "text": "1" }, { "id": "B", "text": "2" }, { "id": "C", "text": "4" }, { "id": "D", "text": "5" } ],
+      "correctOptionId": "C",
+      "explanation": "Match position by position: N = 5, O = 1, R = 4, T = 2, H = 3. So R is 4."
+    },
+    {
+      "id": "q-ma-091", "subjectId": "mental-ability", "topicId": "problem-solving", "difficulty": "easy", "type": "mcq",
+      "question": "A review session starts at 1:45 PM and lasts 2 hours 35 minutes. When does it end?",
+      "options": [ { "id": "A", "text": "4:10 PM" }, { "id": "B", "text": "4:15 PM" }, { "id": "C", "text": "4:20 PM" }, { "id": "D", "text": "4:25 PM" } ],
+      "correctOptionId": "C",
+      "explanation": "1:45 PM + 2 hours = 3:45 PM; + 35 minutes = 4:20 PM."
     }
   ]
 }

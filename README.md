@@ -20,7 +20,7 @@ A simple, free, offline-capable study app for the **University of Santo Tomas (U
 | Progress screen: per-subject stats, topics to review, quiz and mock history, reset | Done |
 | Install as an app / works offline (PWA) | Done |
 
-**Starter content:** 4 subjects, 19 topics, 19 lessons, 40 flashcards, 200 original questions (50 per subject) across five difficulty levels.
+**Content:** 4 subjects, 19 topics, 24 lessons (including quick-review formula sheets and a test-day strategy lesson), 60 flashcards, and 382 practice questions (91–98 per subject) across five difficulty levels.
 
 ## How to run
 

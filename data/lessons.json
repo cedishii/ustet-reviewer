@@ -710,6 +710,288 @@
         { "term": "Magnitude vs. intensity", "definition": "Magnitude is the energy released by an earthquake; intensity is how strongly it is felt at a place." }
       ],
       "formulas": []
+    },
+    {
+      "id": "math-quick-review-01",
+      "subjectId": "mathematics",
+      "topicId": "algebra",
+      "title": "Quick Review: Must-Know Math Formulas",
+      "summary": "A one-page formula sheet for fast review before a mock test. Read it for a few minutes, take a timed practice set without it, then use it again while checking your mistakes.",
+      "sections": [
+        {
+          "heading": "Fast percentage shortcuts",
+          "bullets": [
+            "50% = half, 25% = a quarter, 10% = divide by 10.",
+            "5% = half of 10%; 1% = divide by 100.",
+            "A 15% discount means you pay 85%: multiply by 0.85."
+          ]
+        },
+        {
+          "heading": "Exam tricks",
+          "bullets": [
+            "If solving an equation looks long, plug the answer choices back into the original equation.",
+            "For average speed, divide total distance by total time. Do not just average the speeds.",
+            "With logarithms and square roots, check your answers: reject values that make the inside negative."
+          ]
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Percent change",
+          "definition": "How much a value grew or shrank compared with its original value, written as a percent."
+        },
+        {
+          "term": "Probability",
+          "definition": "The chance of an event: favorable outcomes divided by total possible outcomes."
+        }
+      ],
+      "formulas": [
+        {
+          "name": "Slope",
+          "value": "m = (y₂ − y₁) / (x₂ − x₁)"
+        },
+        {
+          "name": "Distance, rate, time",
+          "value": "d = rt  |  r = d/t  |  t = d/r"
+        },
+        {
+          "name": "Percent change",
+          "value": "(new − old) / old × 100%"
+        },
+        {
+          "name": "Simple interest",
+          "value": "I = Prt"
+        },
+        {
+          "name": "Average (mean)",
+          "value": "sum of values ÷ number of values"
+        },
+        {
+          "name": "Probability",
+          "value": "favorable outcomes ÷ total outcomes"
+        },
+        {
+          "name": "Pythagorean theorem",
+          "value": "a² + b² = c²"
+        },
+        {
+          "name": "Rectangle",
+          "value": "A = lw  |  P = 2l + 2w"
+        },
+        {
+          "name": "Triangle",
+          "value": "A = ½bh"
+        },
+        {
+          "name": "Circle",
+          "value": "A = πr²  |  C = 2πr"
+        },
+        {
+          "name": "Quadratic formula",
+          "value": "x = (−b ± √(b² − 4ac)) / 2a"
+        },
+        {
+          "name": "Exponent rules",
+          "value": "aᵐ · aⁿ = aᵐ⁺ⁿ  |  aᵐ / aⁿ = aᵐ⁻ⁿ  |  (aᵐ)ⁿ = aᵐⁿ"
+        },
+        {
+          "name": "Special products",
+          "value": "(a + b)² = a² + 2ab + b²  |  (a − b)² = a² − 2ab + b²  |  (a + b)(a − b) = a² − b²"
+        }
+      ]
+    },
+    {
+      "id": "sci-quick-review-01",
+      "subjectId": "science",
+      "topicId": "physics",
+      "title": "Quick Review: High-Yield Science Formulas and Facts",
+      "summary": "The formulas and facts that come up most often in science items, on one page. Always check your units (cm vs. m, minutes vs. seconds) before you calculate.",
+      "sections": [
+        {
+          "heading": "Atoms",
+          "bullets": [
+            "Atomic number = number of protons.",
+            "In a neutral atom, protons = electrons.",
+            "Mass number = protons + neutrons."
+          ]
+        },
+        {
+          "heading": "Acids and bases",
+          "bullets": [
+            "Acid: pH below 7. Neutral: pH 7. Base: pH above 7.",
+            "Each pH step is 10 times stronger: pH 3 is 1,000 times more acidic than pH 6."
+          ]
+        },
+        {
+          "heading": "Bonding",
+          "bullets": [
+            "Covalent bond = atoms share electrons.",
+            "Ionic bond = electrons are transferred from one atom to another."
+          ]
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Density",
+          "definition": "How much mass is packed into a given volume (ρ = m/V)."
+        },
+        {
+          "term": "Pressure",
+          "definition": "Force spread over an area (P = F/A); a smaller area means more pressure."
+        }
+      ],
+      "formulas": [
+        {
+          "name": "Velocity",
+          "value": "v = d / t"
+        },
+        {
+          "name": "Acceleration",
+          "value": "a = (v_f − v_i) / t"
+        },
+        {
+          "name": "Force",
+          "value": "F = ma"
+        },
+        {
+          "name": "Weight",
+          "value": "W = mg"
+        },
+        {
+          "name": "Work and power",
+          "value": "W = Fd  |  P = W / t"
+        },
+        {
+          "name": "Kinetic and potential energy",
+          "value": "KE = ½mv²  |  PE = mgh"
+        },
+        {
+          "name": "Density",
+          "value": "ρ = m / V"
+        },
+        {
+          "name": "Pressure",
+          "value": "P = F / A"
+        },
+        {
+          "name": "Electricity",
+          "value": "V = IR  |  P = VI"
+        }
+      ]
+    },
+    {
+      "id": "mental-quick-review-01",
+      "subjectId": "mental-ability",
+      "topicId": "patterns",
+      "title": "Quick Review: Pattern and Reasoning Shortcuts",
+      "summary": "Shortcuts for the most common mental ability items: number series, clocks, analogies, logic, and odd-one-out. Test the simple rules first before looking for an unusual pattern.",
+      "sections": [
+        {
+          "heading": "Number sequences",
+          "bullets": [
+            "Check in this order: add/subtract, multiply/divide, alternating rules, squares/cubes, then differences between terms.",
+            "Example: 3, 7, 13, 21, 31. The differences are +4, +6, +8, +10, so next is +12: 43.",
+            "Also common: (previous × 2) + 1, as in 2, 5, 11, 23, 47, 95."
+          ]
+        },
+        {
+          "heading": "Clocks",
+          "bullets": [
+            "Each hour mark = 30°.",
+            "The minute hand moves 6° per minute; the hour hand moves 0.5° per minute.",
+            "Angle = |30H − 5.5M|. If the result is over 180°, use 360° minus it for the smaller angle."
+          ]
+        },
+        {
+          "heading": "Analogies, logic, and odd-one-out",
+          "bullets": [
+            "Analogies: name the relationship first (tool–user, young–adult, part–whole, cause–effect), then apply the same one.",
+            "Logic: read statements literally. If all A are B and all B are C, then all A are C. Do not assume the reverse.",
+            "Odd-one-out: test category, shape, even/odd, prime/composite, 2D vs. 3D, or function before looking for obscure patterns."
+          ]
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Affirming the consequent",
+          "definition": "The invalid step from \"All A are B\" and \"X is B\" to \"X is A\"."
+        }
+      ],
+      "formulas": [
+        {
+          "name": "Clock angle",
+          "value": "angle = |30H − 5.5M|"
+        }
+      ]
+    },
+    {
+      "id": "mental-strategy-01",
+      "subjectId": "mental-ability",
+      "topicId": "problem-solving",
+      "title": "Test-Day and Practice Strategy",
+      "summary": "How you use your time matters as much as what you know. These habits help on every subtest, not just Mental Ability.",
+      "sections": [
+        {
+          "heading": "During the test",
+          "bullets": [
+            "Estimate first. Know roughly what the answer should look like before doing detailed arithmetic.",
+            "Don't spend too long on one question. If you are stuck after about 60–90 seconds with no clear path, make your best choice and move on.",
+            "Use elimination. Removing even one or two clearly wrong choices makes a guess much stronger.",
+            "Watch units and signs: cm vs. m, minutes vs. hours, negative signs, percent vs. decimal.",
+            "Read what is actually asked. In word problems, underline the quantity you need before calculating."
+          ]
+        },
+        {
+          "heading": "After practice",
+          "bullets": [
+            "Label each mistake by type: concept, arithmetic, misread, or time pressure.",
+            "Fixing the pattern of your mistakes matters more than rereading everything.",
+            "Best routine: review the quick-review lessons for 10–15 minutes, do a timed set without them, then use them again while correcting mistakes."
+          ]
+        }
+      ],
+      "keyTerms": [],
+      "formulas": []
+    },
+    {
+      "id": "english-quick-review-01",
+      "subjectId": "english",
+      "topicId": "grammar",
+      "title": "Quick Review: High-Value English Rules",
+      "summary": "The grammar, usage, and reading rules that decide the most English items, on one page.",
+      "sections": [
+        {
+          "heading": "Grammar and usage",
+          "bullets": [
+            "Subject-verb agreement: find the true subject, not the nearest noun. \"The group of students IS ready.\"",
+            "Either/or, neither/nor: the verb usually agrees with the nearer subject.",
+            "Affect is usually a verb; effect is usually a noun.",
+            "Fewer is for things you can count; less is for amounts you cannot count.",
+            "its = belonging to it; it's = it is. your = belonging to you; you're = you are."
+          ]
+        },
+        {
+          "heading": "Reading",
+          "bullets": [
+            "Main idea: choose the statement broad enough to cover the passage, but not broader than the evidence.",
+            "Inference: use only what the passage supports. Be careful with extreme words like always, never, or completely unless the passage says so."
+          ]
+        },
+        {
+          "heading": "Writing",
+          "bullets": [
+            "Conciseness: prefer the clearest, most direct wording. Replace \"due to the fact that\" with \"because\".",
+            "Parallel structure: items in a list use the same grammatical form: reading, swimming, biking."
+          ]
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Parallel structure",
+          "definition": "Using the same grammatical form for items in a list or comparison."
+        }
+      ],
+      "formulas": []
     }
   ]
 }
